@@ -1,0 +1,135 @@
+	<html>
+	<head>
+	<title>Report</title>
+	<style>
+		div.header {
+			width: auto;
+			display: block;
+			white-space: pre;
+		}
+		
+		div.table {
+			width: auto;
+			display: block;
+			white-space: pre;
+			display: -webkit-flex; /* Safari */
+			  -webkit-justify-content: center; /* Safari 6.1+ */
+			  display: flex;
+			  justify-content: left;
+		}
+		
+		div.body {
+			display: block;
+			width: auto;
+			text-justify: inter-word;
+			white-space: normal;
+			display: -webkit-flex; /* Safari */
+			  -webkit-justify-content: center; /* Safari 6.1+ */
+			  display: flex;
+			  justify-content: left;
+		}
+	</style>
+	</head>
+	<body bgcolor="#ffcccc">
+	<pre>
+	<br>
+	<br>
+	<br><div class=header><center>WINETASTER ON 1/8/24 WITH 6 JUDGES AND 6 WINES BASED ON RANKS, IDENT = N
+Copyright (c) 1995-2024 Richard E. Quandt, V. 3.0
+
+
+
+
+</center></div>
+<div class=table>Identification of the Wine                                                                 The Judges' Overall Ranking:
+
+Wine C is 1996 Le Chambertin Grand Cru, Louis Jadot                                        tied for 1st place
+Wine D is 2020 Charmes Chambertin Grand Cru Gerrard Raphet                                 tied for 1st place
+Wine F is 2004 Ruchottes Chambertin, Grand Cru, Christophe Roumier                         ........ 3rd place
+Wine A is 2005 Latricieres Chambertin, Grand Cru, Domaine Drouhin Laroz                    ........ 4th place
+Wine B is 2005 Gevrey Chambertin Lavaux St Jacques, Premier Cru Patrice                    tied for 5th place
+Wine E is 1995 Mazis Chambertin Grand Cru, Louis Jadot                                     tied for 5th place
+
+
+</div>
+<div class=table>                                         The Judges' Rankings
+
+Judge                      Wine ->        A        B        C        D        E        F
+
+Ed                                        1        4        2        6        3        5
+Dick                                      4        5        2        1        6        3
+Angus                                     5        6        3        4        2        1
+Bob                                       3        2        4        1        6        5
+Mike                                      5        4        2        3        6        1
+Zaki                                      5        4        3        1        2        6
+
+
+                           Wine ->        A        B        C        D        E        F
+                  Group Ranking ->        4        5        1        1        5        3
+                  Votes Against ->       23       25       16       16       25       21
+
+                  (6 is the best possible, 36 is the worst)
+
+
+
+</div>
+<div class=body>Here is a measure of the correlation in the preferences of the judges which ranges between 1.0 (perfect correlation) and 0.0 (no correlation):<br><br>    W = 0.1365<br><br>The probability that random chance could be responsible for this correlation is rather large, 0.5357. Most analysts would say that unless this probability is less than 0.1, the judges' preferences are not strongly related.<br><br>We now analyze how each taster's preferences are correlated with the group preference.<br>A correlation of 1.0 means that the taster's preferences are a perfect predictor of the group's preferences.<br>A 0.0 means no correlation, while a -1.0 means that the taster has the reverse ranking of the group. This is measured by the correlation R.<br><br></div>
+<div class=table>Correlation Between the Ranks of each Person With the Average Ranking of Others
+
+Judge       Spearman's Rho
+Dick         0.8407
+Mike         0.0857
+Zaki        -0.0580
+Bob         -0.0857
+Angus       -0.4286
+Ed          -0.6088
+</div>
+
+<div class=body>The wines were preferred by the judges in the following order. When the preferences of the judges are strong enough to permit meaningful differentiation among the wines, they are separated by -------------------- and are judged to be significantly different.<br><br></div>
+<div class=table>    1.        tied for 1st place        Wine C is 1996 Le Chambertin Grand Cru, Louis Jadot
+    2.        tied for 1st place        Wine D is 2020 Charmes Chambertin Grand Cru Gerrard Raphet
+    3.        ........ 3rd place        Wine F is 2004 Ruchottes Chambertin, Grand Cru, Christophe Roumier
+    4.        ........ 4th place        Wine A is 2005 Latricieres Chambertin, Grand Cru, Domaine Drouhin Laroze
+    5.        tied for 5th place        Wine B is 2005 Gevrey Chambertin Lavaux St Jacques, Premier Cru Patrice Rion
+    6.        tied for 5th place        Wine E is 1995 Mazis Chambertin Grand Cru, Louis Jadot
+
+</div>
+<div class=body>We now test whether the ranksums AS A WHOLE provide a significant ordering. The Friedman Chi-Square value is  4.095. The probability that this could happen by chance is  0.536.</div>
+<div class=body>We now undertake a more detailed examination of the pair-wise rank correlations that exist between pairs of judges. First, we present a table in which you can find the correlation for any pair of judges, by finding one of the names in the left hand margin and the other name on top of a column. A second table arranges these correlations in descending order and marks which is significantly positive significantly negative, or not significant. This may allow you to find clusters of judges whose rankings were particularly similar or particularly dissimilar.<br><br></div>
+<div class=body>Pairwise Rank Correlations<br><br>Correlations must exceed in absolute value  0.812 for significance at the 0.05 level, and must exceed  0.740 for significance at the 0.10 level.<br><br></div>
+<div class=body>Correlation Array for the tasting is:<br><br></div>
+<div class=table>                 Ed          Dick        Angus       Bob         Mike        Zaki       
+Ed               1.000      -0.371      -0.200      -0.314      -0.429      -0.257      
+Dick            -0.371       1.000       0.086       0.486       0.714       0.200      
+Angus           -0.200       0.086       1.000      -0.771       0.371      -0.086      
+Bob             -0.314       0.486      -0.771       1.000       0.086       0.257      
+Mike            -0.429       0.714       0.371       0.086       1.000      -0.314      
+Zaki            -0.257       0.200      -0.086       0.257      -0.314       1.000      
+</div>
+
+
+<div class=body><center>Pairwise correlations in descending order<br><br></center></div>
+<div class=table> 0.714    Dick                and Mike                    Not significant
+ 0.486    Dick                and Bob                     Not significant
+ 0.371    Angus               and Mike                    Not significant
+ 0.257    Bob                 and Zaki                    Not significant
+ 0.200    Dick                and Zaki                    Not significant
+ 0.086    Dick                and Angus                   Not significant
+ 0.086    Bob                 and Mike                    Not significant
+-0.086    Angus               and Zaki                    Not significant
+-0.200    Ed                  and Angus                   Not significant
+-0.257    Ed                  and Zaki                    Not significant
+-0.314    Ed                  and Bob                     Not significant
+-0.314    Mike                and Zaki                    Not significant
+-0.371    Ed                  and Dick                    Not significant
+-0.429    Ed                  and Mike                    Not significant
+-0.771    Angus               and Bob                     Significantly negative
+
+
+</div>
+<div class=body>COMMENT:<br><br>Overall this was a most enjoyable tasting of Gevrey Chambertin wines, spanning 25 years. The wines were all of high quality and were drinking beautifully, despite the wide range of ages and as can be seen from the correlation between the tasters, they were difficult to draw distinctions between the individual wines, with the 2 highest ranked wines being at both ends of the age range. It also sought to demonstrate the sheer quality of these Grand Cru wines from Gevrey Chambertin.<br>The host started us off with a 2005 Bonneau du Martray 2005 Corton Charlemagne, magnificent proof of how good White Burgundy can be once again, post pre-mox.<br>We finished with a marvelous  6 puttonyos Tokaji and a 1927 Solera Alvear Pedro Ximenez which stole the show with its hints of marzipan and dried fruits.</div>
+	<br>
+	<center><a href="rep.htm">Return to the previous page</a></center>
+	</pre>
+	</body>
+	</html>

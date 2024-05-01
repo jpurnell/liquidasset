@@ -1,0 +1,726 @@
+<center><b>Measurement and Inference in Wine Tasting</b></center>
+
+ <center>Richard E. Quandt<a href="footnote1.htm"><sup>1</sup></a></center>
+ 
+ <center>Princeton University
+ </center><center>The Andrew W. Mellon Foundation</center><br>
+<center><b> 1. Introduction</b></center><br>
+<p>Numerous situations exist in which a set of judges rates a set of objects.
+Common professional situations in which this occurs are certain types of
+athletic competitions (figure skating, diving) in which performance is
+measured not by the clock but by &quot;form&quot;<a name="f2"></a>
+and &quot;artistry,&quot; and consumer product evaluations, such as those conducted
+by <i>Consumer Reports</i>, in which a large number of different brands of
+certain items (e.g., gas barbecue grills, air conditioners, etc.) are compared
+for performance.<a href="footnote2.htm"><sup>2</sup></a>
+ All of these situations are characterized by the fact that a truly &quot;objective&quot; measure 
+ of quality is missing, and thus quality can be assayed only on the basis of the (subjective) impressions of
+ judges.</p>
+
+<p><a name="f3"></a>The tasting of wine is, of course, an entirely analogous situation. While there are objective
+ predictors of the quality of wine,<a href="footnote3.htm"><sup>3</sup></a> which utilize variables such as
+sunshine and
+rainfall during the growing season, they would be difficult to apply
+to a sample of wines representing many small vineyards exposed to identical
+ weather conditions, such as might be the case in Burgundy, and would not in
+  any event be able to predict the 
+impact on wine quality of a faulty cork. Hence, wine tasting is an important
+example in which judges rate a set of objects.</p>
+
+<p>In principle, ratings can be either &quot;blind&quot; or &quot;not blind,&quot; although it
+ may be difficult to imagine how a skating competition could be judged without
+  the judges knowing the identities of the contestants. But whenever possible,
+   blind ratings are preferable,
+because they remove one important aspect of inter-judge variation that
+ most people would claim is irrelevant, and in fact harmful to the results,
+ namely &quot;brand loyalty.&quot; <a name="f4"></a>Thus, wine bottles are typically covered in blind
+  tastings or wines are decan
+ted, and identified only with code names such as <b>A</b>, <b>B</b>, etc.<a href=
+"footnote4.htm"><sup>4</sup></a>
+ But even blind tastings do not remove
+ all source of unwanted variation. When we ask judges to take a position as
+ to which wine is best, second best, and so on, we cannot control for the
+ fact that some people like tannin more than others, or that some are offended
+  by traces of oxidation more
+than others.<a name="f5"></a> Another source of variation is that some judge might rate a
+wine on the basis of how it tastes <i>now</i>, while another judge rates
+the wine on how he or she thinks the wine might taste <i>at its peak</i>.<a href="footnote5.htm"><sup>5</sup></a>
+</p>
+
+<p>Wine tastings can generate data from which we can learn about the
+charateristics of both the wines and the judges. In Section 2, we
+concentrate on what the ratings of wines can tell us about the wines
+themselves, while in Section 3 we deal with what the 
+ratings can tell us about the judges. Both sets of questions are interesting
+ and can utilize straightforward statistical procedures.</p>
+<pre>   </pre>
+<center><b>2. The Rating of Wines</b></center><br>
+
+<p><a name="f6"></a>First of all, we note that there is no cardinal measure by which we can
+ rate wines. Two scales for rating are in common use: (1) the well-known
+  ordinal rank-scale, by which wines are assigned ranks 1, 2, ...,n,
+   and (2) a ``grade''-scale, such as the
+well-publicized ratings by Robert Parker based on 100 points.<a href=
+"footnote6.htm"><sup>6</sup></a>
+The grade scale has some of the aspects of a cardinal scale, in that
+intervals are interpreted to have
+meaning, but is not a cardinal scale in the sense in which the measure
+ of weights is one.</p>
+
+<p><i>Ranking Wines</i>. We shall assume that the are m judges and n wines; hence a table of ranks is an <i>m x n</i> table and 
+for <i>m=4</i> and <i>n=3</i> might appear as</p>
+
+<center><b>Table 1. Rank Table for Judges</b></center><br><pre>
+                       Judge       Wine ->     A      B       C
+
+                       Orley                   1.     2.      3.
+                       Burt                    2.     1.      3.
+                       Frank                   1.     3.      2.
+                       Richard                 2.     1.      3.<br>
+                       Rank Sums               6.     7.     11.</pre></p>
+<p>Notice that no tied ranks appear in the table. The organizer of a wine
+tasting clearly has a choice of whether tied ranks are or are not permitted.
+ My colleagues' and my preference is not to permit tied ranks, since tied
+ ranks encourage &quot;lazy&quot; tasting; when
+the sampled wines are relatively similar, the option of using tied ranks
+enables the tasters to avoid hard choices. Hence, in what follows, no tied
+ranks will appear (except when wines are graded, rather than ranked). What
+does the table tell us about
+ the group's preferences? The best summary measure has to be the rank sums
+ for the individual wines, which in the present case turn out to be 6, 7,
+ and 11 respectively. Clearly, wine <b>A</b> appears to be valued most highly and
+  wine <b>C</b> the least.</p>
+
+<p>The real question is whether one can say that a rank sum is significantly
+low or significantly high, since even if judges assign rank sums completely
+ at random, we would sometimes find that a wine has a very low (high) rank sum.</p>
+
+<p><a name="f7"></a>Kramer computes upper and lower critical values for the rank sums and asserts
+that we can test the hypothesis that a wine has a significantly high (low)
+rank sum by comparing the actual rank sum with the critical values; if the
+rank sum is greater (lower)
+ than the upper (lower) critical value, the rank sum would be declared
+ significantly high (low).<a href="footnote7.htm"><sup>7</sup></a> If, in
+ assigning a rank to a particular wine, each
+ of <i>m</i> judges chooses exactly one number out of the set (1, 2, ..., <i>n</i>),
+ the total number of rank patters is <i>n<sup>m</sup></i> and it is easy to determine how
+  many of the possible rank sums are equal to <i>m</i> (the lowest possible rank
+   sum), ..., and <i>nm</i> (the
+ highest possible rank sum). <a name="f8"></a>From this is easy to determine critical low and
+  high values such that 5% of the rank sums are lower than the low and 5%
+  are higher than the high critical value.<a href="footnote8.htm"><sup>8</sup></a>
+ This test is entirely appropriate if one wishes to test  {a single rank sum}
+ for significance.</p>
+
+<p>The problem with the test is that typically one would want to make a statement
+ about each and every wine in a tasting; hence one would want to compare the
+ rank sums of all <i>n</i> wines to the critical values; some of the rank sums might
+  be smaller than the small critical value, some might be larger than the larger of the critical
+values, and others might be in-between. Applying the test to each wine, we
+would pronounce some of the wines  <i>statistically significantly good</i>
+(in the tasters' opinion, some
+<i>significantly bad</i>, and some not significantly good or bad. Unfortunately,
+ this is not a valid use of the test. Consider the experiment of judges
+ assigning ranks to wines one at a time, beginning with wine <b>A</b>. Once a judge
+ has assigned a particular rank
+ to that wine, say &quot;1&quot;, that rank is no longer available to be assigned by
+ that judge to another wine. Hence, the remaining rank sums can no longer be
+ thought to have been generated from the universe of all possible rank sums,
+ and in fact, the rank sums for the various wines are not independent.</p>
+
+<p>To examine the consequences of applying the Kramer rank sum test to each wine
+in a tasting, we resorted to Monte Carlo experiments in which we generated
+10,000 random rankings of <i>n</i> wines by <i>m</i> judges; for each of the 10,000
+replications we counted the
+number of rank sums that were signficantly high and significantly low,
+and then classified the replication in a two-way table in which the
+<i>(i,j)<sup>th</sup></i> entry, (<i>i</i>=<i>0</i>,...,<i>n</i>, <i>j</i>=<i>0</i>,...,<i>n</i>)
+ indicates the number
+of replications in which <i>i</i> rank sums
+ were significantly low and <i>j</i> rank sums were significantly high. This
+ experiment was carried out for (<i>m=4</i>, <i>n=4</i>), (<i>m=8</i>, <i>n=8</i>) and (<i>m=8</i>, <i>n=12</i>).
+ The results are shown in Tables 2, 3, and 4.</p>
+ <p>
+ <center><b>Table 2. Number of Significant Rank Sums According to Kramer 
+ for m=4, n=4.</b></center><br><pre>
+                                            j=
+                           i        0        1       2<br>  
+                           0      6414     1221      0  
+                           1      1261     1070     16
+                           2         0       12      6</pre></p><br>     
+ <p><center><b>Table 3. Number of Significant Rank Sums According to Kramer 
+ for m=8, n=8.</b></center>
+    <pre>
+	                                     j=
+                         i       0        1       2      3<br>  
+                         0     4269     1761     93      0
+                         1     1774     1532    211      3  
+                         2       97      192     60      0   
+                         3        2        3      2      1  </pre></p><br>
+<p><center><b>Table 4. Number of Significant Rank Sums According to Kramer
+  for m=8, n=12.</b></center><pre>
+                                       j=
+                     i       0       1       2      3      4<br>   
+                     0     3206    1874    252      4      0 
+                     1     1915    1627    357     21      1
+                     2      245     332    121     11      0 
+                     3        6      13     12      3      0 </pre></p><br>
+<p>Thus, for example, in Table 4, 1,915 out of 10,000 replications had a sole
+rank sum that was significantly low by the Kramer criterion, 1,627 replications
+ had one rank sum that was signficantly low <i>and</i> one rank sum that was
+ significantly high, 357
+ replications had one significantly low and two significantly high rank sums,
+ and so on. It is clear that the Kramer test classifies way too many rank sums
+ as significant. At the same time, if we apply the Kramer test to a single
+ (randomly chosen) column
+of the rank table, the 10,00 replications give significantly high and low
+outcomes as shown in Table 5:</p><br>
+<p><center><b>Table 5. Application of Kramer Test to a Single Rank
+ Sum in Each Replication</b></center><pre>
+                                    Significantly 
+                           (m,n)     High     Low     <br>
+                           (4,4)     552      584
+                           (8,8)     507      517
+                           (8,12)    478      467</pre></p><br>
+<p>While the observed rejection frequencies of the null hypothesis of
+&quot;no significant rank sum&quot; are
+statistically significantly different from the expected value of 500,
+using the normal approximation to the binomial distribution, the numbers are,
+at least, &quot;in the ball-park,&quot; while in the case of applying the text to 
+every rank sum in each replication
+ they are not even near.</p>
+
+<p>This suggests that a somewhat different approach is needed to testing the rank
+ sums  in a given tasting. Each judge's ranks add up to <i>n(n+1)/2</i> and hence
+ the sum of the rank sums over all judges is <i>mn(n+1)/2</i>. Hence, denoting the
+ rank sum for the <i>j<sup>th</sup></i> wine by <i>s<sub>j</sub>, 
+ j=1,...,n</i>, we obtain the sum of the rank sums over <i>j</i> as<br><br>
+<center><i>SUM s<sub>j</sub>=mn(n+1)/2,</i></center><br>
+which, in effect, means that the rank sums for the various wines are located
+on an <i>(n-1)</i>-dimensional simplex. The center point of this simplex has
+coordinates <i>m(n+1)/2</i> in every direction, and if every wine had this rank
+sum, there would be no difference at all among the
+ wines. It is plausible that the farther a set of rank sums <i>s<sub>1</sub>,...,s<sub>n</sub></i>
+is located from this center, the more pronounced is the departure of
+the rankings from the average. However, judging the potential significance
+of the departure of a single rank sum from the center point has the same 
+problem as the Kramer measure.
+Therefore we propose to measure the departure of the whole wine tasting
+from the average point by the (squared) sum of distances of each rank sum
+from the center points, i.e., by<br><br>
+<center><i>D=SUM(s<sub>j</sub>-[m(n+1)/2])<sup>2</sup>.</i></center></p>
+
+<p>In order to determine critical values for <i>D</i>, we resorted to Monte Carlo
+experiments. Random rank tables were generated for m judges and n wines
+<i>(m=4, 5, ..., 12; n=4, 5, ..., 12)</i>, and the <i>D</i>-statistic was computed for
+each of 10,000 replications;
+the critical value of D at the 0.05 level was obtained from the sample
+cumulative distributions. These are displayed in Table 6.</p>
+<a name="f9"></a>
+<p><center><b>Table 6. Critical values for D at the 0.05 level<a href="footnote9.htm"><sup>9</sup></a></b>
+</center>
+<pre>
+                                             n=
+                  m   4     5     6     7     8     9     10    11    12<br>
+                  4  50    88    140   216   312   430   570   746   954 
+                  5  60   110    180   278   390   550   716   946  1204 
+                  6  74   134    218   336   480   664   876  1150  1468 
+                  7  88   158    256   394   564   780  1036  1344  1712 
+                  8 102   182    300   452   644   894  1174  1534  1984 
+                  9 112   206    338   512   732  1014  1342  1742  2236 
+                 10 122   230    376   580   820  1128  1500  1954  2508 
+                 11 136   252    420   636   902  1236  1642  2140  2740 
+                 12 150   276    458   688   992  1360  1836  2358  2998</pre></p> 
+<p>It is important to keep in mind the correct interpretation of a significant
+<i>D</i>-value. Such a value no longer singles out a wine as significantly &quot;good&quot;
+or &quot;bad,&quot; but singles out an entire set of wines as representing a
+significant rank order.</p>
+<p><center><b>Table 7. Rank Table</b></a></center>
+<pre>
+                     Judge     Wine ->     A     B     C     D<br>   
+                     Orley                 1     2     3     4  
+                     Burt                  2     1     4     3 
+                     Frank                 3     1     2     4 
+                     Richard               2     1     4     3<br> 
+                     Rank Sums             8     5    13    14</pre></p>   
+<p>The rank sums for the four wines 8, 5, 13, 14, and the Kramer test would say
+only that wine <b>D</b> is significantly bad. In the present example, 
+<i>D=54</i>, and the entire rank order is significant; i.e., <b>B</b> is
+significantly better than <b>A</b>, which is significantly better than <b>C</b>,
+which is significantly better than <b>D</b>.</p>
+<p><a name="f10"></a>A final approach to determining the significance of rank sums is to perform
+the Friedman two-way analysis of variance test.<a href="footnote10.htm"><sup>10</sup></a> It tests the hypothesis 
+that the ranks assigned to the various wines come from the same population. The test statistic is<br><br>
+<center><i>F=[12/(mn(n+1))]SUM<sub>j</sub>s<sub>j</sub><sup>2</sup>-3m(n+1)</i></center><br>
+if there are no ties, and is<br><br><center><i>
+F={12SUM<sub>j</sub>s<sub>j</sub><sup>2</sup>-3m<sup>2</sup>n(n+1)<sup>2</sup>}
+/mn(n+1)+[mn-SUM<sub>i</sub>SUM<sub>j</sub><sup>tau<sub>i</sub></sup>]t<sub>ij</sub><sup>3</sup>/(n-1)}</i></center><br>
+if there are ties, where <i>tau<sub>i</sub></i> is the number of sets of tied ranks for
+judge <i>i</i> (if there are no ties for judge <i>i</i>, then <i>tau<sub>i</sub>=n</i>) and <i>t<sub>ij</sub></i>
+is the number of items that are tied for judge <i>i</i> in his/her <i>j<sup>th</sup></i>
+group of tied observations (if there are no ties, <i>t<sub>ij</sub>=1</i>). It is easy to verify that the second
+formula reduces to the first if there are no ties. Critical values for small <i>m</i> and
+<i>n</i> are given in Siegel and Castellan; for large values <i>F</i> is
+distributed under the null hypothesis of no differences among the rank sums
+as <i>chi<sup>2</sup>(n-1)</i>. It is clear that the Friedman test and the <i>D</i>-test have 
+very similar underlying objectives.</p>
+<p><i>Grading Wines</i>. Grading wines consists of assigning "grades" to each wine,
+with no restrictions on whether ties are permitted to occur. While the
+resulting scale is not a cardinal scale, some meaning does attach to the
+level of the numbers assigned to each wine. Thus, if one a 20-point scale, one 
+judge assigns to three wines the grades 3, 4, 5, while another judge 
+assigns the grades 18, 19, 20,and a third judge assigns 3, 12, 20, they appear
+to be in complete harmony concerning the <i>ranking</i> of wines, but have serious differences of opinion with respect to the
+absolute quality. I am somewhat sceptical about the value of the information
+contained in such differences. But we always have the option of translating
+grades into ranks and then analyzing the ranks with the techniques illustrated above. For this purpose,
+we reproduce the grades assigned by 11 judges to 10 wines in a famous 1976
+tasting of American and French Bordeaux wines.</p>
+<p><center><b>Table 8. The Wines in the 1976 Tasting</center></b><br><pre>
+                 Wine      Name                          Final Rank<br> 
+                  A    Stag's Leap 1973                     1st   
+                  B    Ch. Mouton Rothschild 1970           3rd   
+                  C    Ch. Montrose 1970                    2nd 
+                  D    Ch. Haut Brion 1970                  4th  
+                  E    Ridge Mt.Bello 1971                  5th 
+                  F    L&eacute;oville-las-Cases 1971              7th 
+                  G    Heitz Marthas Vineyard 1970          6th   
+                  H    Clos du Val 1972                    10th  
+                  I    Mayacamas 1971                       9th   
+                  J    Freemark Abbey 1969                  8th </pre></p> 
+<p>Table 9 contains the judges' grades and Table 10 the conversion of those
+grades into ranks. Since grading permits ties, the ranks into which the
+grades are converted also have to reflect ties; thus, for example, if
+the top two wines were to be tied in a judge's estimation, they would both be assigned a rank of 1.5. Also note that grades and ranks are inversely related: the higher a grade, the better the wine, and hence the lower its rank position.</p>
+<p>If we apply the critical values as recommended by Kramer, we would find that
+wines <b>A</b>, <b>B</b>, and <b>C</b> are significantly good (in the opinion of the judges) and
+wine <b>H</b> is significantly bad. The value of the <i>D</i>-statistic is 2,637, which
+is significant for 11 judges and 10 wines according to Table 6, and hence the 
+entire rank order may be considered significant. Computing the Friedman 
+two-way analysis of variance test yields a <i>chi<sup>2</sup></i> value of 23.93, which 
+is significant at the 1 percent  level. Hence, the two tests are entirely
+compatible and the Friedman test rejects the hypothesis that the medians
+of the distributions of the rank sums are the same for the different wines.</p>
+<p>In this section we compared several ways of evaluating the significance of
+rank sums. In particular, we argued that the <i>D</i>-statistic and the Friedman
+two-way analysis of variance tests are more appropriate than the Kramer
+statistic, although for the 1976 tasting they basically agree with one another.</p>
+<a name="taste76">
+<p><center><b>Table 9. The Judges's Grades</b></center><pre></a>
+                                                    Wine 
+          Judge             A     B     C     D     E     F     G     H     I     J  <br>
+          Pierre Brejoux  14.0  16.0  12.0  17.0  13.0  10.0  12.0  14.0   5.0   7.0  
+          A. D. Villaine  15.0  14.0  16.0  15.0   9.0  10.0   7.0   5.0  12.0   7.0  
+          Michel Dovaz    10.0  15.0  11.0  12.0  12.0  10.0  11.5  11.0   8.0  15.0  
+          Pat. Gallagher  14.0  15.0  14.0  12.0  16.0  14.0  17.0  13.0   9.0  15.0  
+          Odette Kahn     15.0  12.0  12.0  12.0   7.0  12.0   2.0   2.0  13.0   5.0  
+          Ch. Millau      16.0  16.0  17.0  13.5   7.0  11.0   8.0   9.0   9.5   9.0  
+          Raymond Oliver  14.0  12.0  14.0  10.0  12.0  12.0  10.0  10.0  14.0   8.0  
+          Steven Spurrier 14.0  14.0  14.0   8.0  14.0  12.0  13.0  11.0   9.0  13.0  
+          Pierre Tari     13.0  11.0  14.0  14.0  17.0  12.0  15.0  13.0  12.0  14.0  
+          Ch. Vanneque    16.5  16.0  11.0  17.0  15.5   8.0  10.0  16.5   3.0   6.0  
+          J.C. Vrinat     14.0  14.0  15.0  15.0  11.0  12.0   9.0   7.0  13.0   7.0 </pre></p>  
+<p><center><b>Table 10. Conversion of Grades into Ranks</b></center><pre>
+                                                    Wine
+          Judge             A     B     C     D     E     F     G     H     I     J <br> 
+          Pierre Brejoux   3.5   2.0   6.5   1.0   5.0   8.0   6.5   3.5  10.0   9.0
+          A. D. Villaine   2.5   4.0   1.0   2.5   7.0   6.0   8.5  10.0   5.0   8.5
+          Michel Dovaz     8.5   1.5   6.5   3.5   3.5   8.5   5.0   6.5  10.0   1.5
+          Pat. Gallagher   6.0   3.5   6.0   9.0   2.0   6.0   1.0   8.0  10.0   3.5
+          Odette Kahn      1.0   4.5   4.5   4.5   7.0   4.5   9.5   9.5   2.0   8.0
+          Ch. Millau       2.5   2.5   1.0   4.0  10.0   5.0   9.0   7.5   6.0   7.5
+          Raymond Oliver   2.0   5.0   2.0   8.0   5.0   5.0   8.0   8.0   2.0  10.0
+          Stev. Spurrier   2.5   2.5   2.5  10.0   2.5   7.0   5.5   8.0   9.0   5.5
+          Pierre Tari      6.5  10.0   4.0   4.0   1.0   8.5   2.0   6.5   8.5   4.0
+          Ch. Vanneque     2.5   4.0   6.0   1.0   5.0   8.0   7.0   2.5  10.0   9.0
+          J.C. Vrinat      3.5   3.5   1.5   1.5   7.0   6.0   8.0   9.5   5.0   9.5<br>
+          Rank Totals     41.0  43.0  41.5  49.0  55.0  72.5  70.0  79.5  77.5  76.0
+          Group Ranking    1     3     2     4     5     7     6    10     9     8 </pre></p> 
+<div align="center"><a href="report20.html#continue">Return to Report 20</a></div>
+<center
+<br><br><br><b>3. Agreement or Disagreement Among the Judges</b></center>
+<p>There are at least two questions we may ask about the similarity or
+dissimilarity of the judges' rankings (or grades). The first one concerns
+the extent to which the group of judges as a whole ranks (or grades) the
+wines similarly. The second one concerns the extent of the correlation is 
+between a particular pair of judges.</p>
+<p><a name="f11"></a>The natural test for the overall concordance among the judges' ratings is
+the Kendall <i>W</i> coefficient of concordance.<a href="footnote11.htm"><sup>11</sup></a> It is computed as<br>
+<center><i>W=SUM<sub>i</sub>(<u>r<sub>i</sub></u> -<u>r</u>)<sup>2</sup>/[n(n<sup>2</sup>-1)/12]</i></center>
+where <u><i>r<sub>i</sub></i></u> is the average rank assigned to the <i>i<sup>th</sup></i> wine and <u>r</u> is the average of 
+the averages. Siegel and Castellan again provide tables for testing 
+the null hypothesis of no concordance for small values of <i>m</i> and <i>n</i>; for
+large values,<i>m(n-1)W</i> is approximately distributed as <i>chi<sup>2</sup>(n-1)</i>. In the
+case of the wine tasting depicted in Tables 9 and 10, <i>W=0.2417</i> and the
+probability of obtaining a value this high or higher is 0.0059, a highly
+significant result showing strong agreement among the judges.</p>
+<p><a name="f12"></a>The pairwise correlations between the judges can be assessed by using 
+either Spearman's <i>rho</i> and Kendall's <i>tau</i>.<a href="footnote12.htm"><sup>12</sup></a> Spearman's <i>rho</i>
+is simply the ordinary product-moment correlation based on variables
+expressed as ranks, and thus has the standard interpretation of a 
+correlation coefficient. The philosophy underlying the computation of <i>tau</i> 
+is quite different. Assume that we have two rankings given by <i>r<sub>1</sub></i> and <i>r<sub>2</sub></i>,
+where these are <i>n</i>-vectors of rankings by two individuals. To compute <i>tau</i>,
+we first sort <i>r<sub>1</sub></i> into natural order and parallel-sort <i>r<sub>2</sub></i> (i.e., ensure that the
+i<sup>th</sup> elements of <i>r<sub>1</sub></i> and <i>r<sub>2</sub></i> both migrate to the same position in their
+respective vectors). We then count up the number of instances 
+in which in <i>r<sub>2</sub></i> a higher rank follows a lower rank (i.e., are in 
+natural order) and the number of instances in which in <i>r<sub>2</sub></i> a 
+higher rank precedes a lower rank (reverse order). <i>tau</i> is then</p>
+<center><i>tau</i>=(Number of natural order pairs - Number of reverse order pairs)/<i>[n!/(n-2)!2!]</i></center>
+<p>Clearly, <i>rho</i> and <i>tau</i> can be quite different and it does not make sense
+to compare them. In fact, for <i>n=6</i>, the maximal absolute difference <i>rho</i>-<i>tau</i>
+can be as large as 0.3882 and the cumulative distributions of <i>rho</i> and <i>tau</i>
+obtained by calculating their values for all possible permutations of 
+ranks appear to be quite different.  Since the interpretation of <i>tau</i> 
+is a little less natural, I prefer to use <i>rho</i>, but from the point of
+view of significance testing it does not make a difference which is used; in
+fact, Siegel and Catellan point out that the relation between <i>rho</i> and <i>tau</i> 
+is governed by the inequalities -1<=3<i>tau</i>-2<i>rho</i><= 1.</p>
+<p><a name="f13"></a>A final calculation that may be amusing, even though its statistical
+assessment is not entirely clear, is to calculate the correlation between
+the rankings of a given judge with the <i>average ranking</i> of the remaining
+judges.<a href="footnote13.htm"><sup>13</sup></a> To accomplish this, we must first average the rankings of the remaining 
+judges and then find the correlation between this average ranking and the ranking of the
+given judge. Obviously, repeating this calculation for each of the n judges
+gives us n <i>rho</i>s that are not independent of one another, and hence the
+significance testing of these n correlations is unclear. But it is an
+amusing addendum to a wine tasting, since it gives us some insight as to 
+who agrees most with "the rest of the herd" (or, conversely, who is the 
+dominant person with whom the ``herd'' agrees) and who is the real  
+contrarian. In the case of the1976 wine tasting, the table of correlations
+is as follows:</p>
+<p><center><b>Table 11. Correlation of Each Judge with Rest of Group</b></center><br><pre>
+                            Judge          Spearman's <i>rho</i> 
+
+                            Pierre Brejoux          0.4634 
+                            A. D. Villaine          0.6951 
+                            Michel Dovaz           -0.0675 
+                            Pat. Gallagher         -0.0862 
+                            Odette Kahn             0.2926 
+                            Ch. Millau              0.6104 
+                            Raymond Oliver          0.2455 
+                            Stev. Spurrier          0.4688 
+                            Pierre Tari            -0.1543 
+                            Ch. Vanneque            0.4195 
+                            J.C. Vrinat             0.6534 </pre></p><br>
+<b><center><a name="section4"></a>4. The Identification of Wines</center></b>
+<p>One aspect of wine tasting that can be both satisfying and challenging is
+to ask the judges to try to identify the wines. By identification we do not,
+of course, mean that the judges would have to identify the wines out of the 
+entire universe of all possible wines. It is clear that judges have to be
+given some clue concerning the general category of the wines they are drinking,
+otherwise it is quite likely that no useful results will be obtained from the 
+identification exercise, unless the judges are truly great experts.</p>
+<p>There are at least two possibilities. The first one is that the judges 
+have to associate with each actual wine name the appropriate code letter 
+(<b>A</b>, <b>B</b>, <b>C</b>, etc.) that appears on a bottle. In this case, we continue to 
+adopt the convention that at the beginning of the tasting the judges are 
+presented with a list of the wines to be tasted (presumably in alphabetical
+order, lest the order of the wines in the list create a presumption that 
+the first wine is wine <b>A</b>, the second wine <b>B</b>, and so on). Thus, if eight wines 
+are to be tasted, the task of the judges is to match the actual wine names 
+with the letters <b>A</b>, <b>B</b>, <b>C</b>, etc. The question we shall investigate is how 
+we can test the hypothesis that that the identification pattern selected
+by a judge is no better than what would be obtained by a chance assignment.</p>
+<p></center>The second possibility is that the judges are not given the names of the
+wines but are given their &quot;type&quot; or the type of grape out of which they are
+made. Thus, for example, one could have a tasting of cabernet sauvignons from
+Bordeaux together with cabernet sauvignons from California (as in the 1976 
+tasting discussed in the previous section), or one could have a tasting of 
+Burgundy pinot noirs, together with Oregon pinot noirs and South African 
+pinot noirs from the Franschoek or Stellenbosch area. The judges would 
+merely be told the number of wines of each type in the tasting, and their 
+task is to identify which of wines  <b>A</b>,<b> B</b>, <b>C</b>, etc. is a Bordeaux 
+wine and which a California wine.</p>
+<p><i>Guessing the Name of Each Wine</i>. Consider the case in which <i>n</i> 
+wines are being tested and let <i>P</i> be an <i>n</i> by <i>n</i> matrix, 
+the rows of which correspond to the &quot;artificial&quot; names of the wines 
+(<b>A</b>, <b>B</b>,...) and the columns of which correspond to the actual 
+names of the wines. We will say that the label in row <i>i</i> is assigned to 
+(matched with) the label in column <i>j</i> if the element <i>a<sub>ij</sub>=1</i> and is not 
+assigned to the label in column <i>j</i> if <i>a<sub>ij</sub>=0</i>. It is obvious that the matrix
+<i>P</i> is a valid <i>identification matrix</i> if and only if (1) each row has 
+exactly one 1 in it and <i>n-1</i> 0s, and (2) each column has exactly 
+one 1 in it and <i>n-1</i> 0s. Under these circumstances, an identification matrix is 
+a permutation matrix, i.e., it is a matrix that can be obtained from an identify
+matrix by permuting its rows. Obviously, the &quot;truth&quot; can also be represented 
+by a permutation matrix; its <i>ij<sup>th</sup></i> element is 1 if an only if artificial 
+label <i>i</i> actually corresponds to real label j. This permutation matrix  
+will be denoted by <i>T</i>.</p></center>
+<p>To measure the extent to which a person's wine identification (as given by 
+his or her <i>P</i> matrix) corresponds to the truth (the <i>T</i> matrix), we 
+propose the following measure <i>C</i>:
+<br><center><i>C=tr(PT)/n</i></center><br>
+where n is the number of wines, which is just the percentage of wines correctly 
+identified. The justification for this measure emerges from the following 
+considerations.</p>
+<p>First note that every permutation matrix is its own inverse; i.e.,
+<i>P=P<sup>-1</sup></i>. The reason is that if we interchange the <i>i<sup>th</sup></i> and <i>j<sup>th</sup></i>
+rows of an identity matrix and then premultiply a given matrix by it, that will have the 
+effect of interchanging in the given matrix the same pair of rows. Hence, premultiplying 
+the matrix <i>P</i> by itself, interchanges those rows in <i>P</i> , yielding an 
+identity matrix for the product. Thus, if a person's <i>P</i> matrix is identical to <i>T</i>, <i>PT</i> is an 
+identity matrix, the trace of which is equal to <i>n</i>; hence <i>C=1.0</i> in the case
+in which a person identifies each wine correctly. Moreover, <i>C</i> is monotone in the 
+number of wines correctly identified and if no wines are correctly identified, <i>C=0</i>. 
+Therefore, in order to judge whether the observed value of <i>C</i> is significant (under t
+he null hypothesis of random identification by the judge), we require the sampling 
+distribution of <i>C</i>.</p>
+
+<p>The are <i>n!</i> permutation matrices, and any one of these matrices <i>P</i> can be paired 
+with any one of <i>n!</i> possible matrices <i>T</i>, which suggests a formidable number of possible 
+outcomes. However, the possible outcomes are identical for each of the 
+possible <i>T</i> matrices; hence without any loss of generality, we may fix<i> T</i> 
+as the identity matrix. Then <i>PT=P</i> and to compute <i>C</i> it is sufficient to count up how many 
+of the possible <i>n! P</i> matrices have trace equal to 0, 1, ...</p>
+
+<p>To find the sampling distribution of the trace is formally identical
+with the following problem. Let there be <i>n</i> urns, labelled  <b>A</b>, <b>B</b>, <b>C</b>, etc, 
+and let there be <i>n</i> balls, labelled similarly. We shall
+randomly place one ball in each urn; we then ask what the probability is
+that exactly <i>k</i> of the urns contain a ball that has the same label as
+the urn.</p>
+
+<p><a name="f14"></a>It is obvious that the total possible ways in which balls can placed in
+urns is <i>n!</i>. It is also obvious that there is exactly one way (out of
+n! ways) that every ball is in the urn with the same label, and it is
+also obvious that it is impossible for exatly <i>n-1</i> balls to be in the
+like-labelled urn (since if <i>n-1</i> balls are, then the last one must also be
+in a like-labelled urn).
+
+Denote by <i><a name="f14"></a>M(i,j)</i> the number of ways in which you can place <i>j</i> balls
+in <i>j</i> urns so that exactly <i>i</i> balls are in like-labelled urns.<a href="footnote14.htm"><sup>14</sup></a>
+As long as <i>i</i> is not equal to <i>j-1</i>, having exactly <i>i</i> 
+balls in the like-labelled urns can be done in <i>j!/i!(j-i)!</i> ways. The 
+remaining urns and balls should produce no match if we want exactly <i>i</i> matches; the
+number of ways that that can occur is, by definition, <i>M(0,j-i)</i>. The
+total number of ways then is <i>M(i,j)=[j!/i!(j-i)!]M(0,j-i)</i>. For a value
+of <i>n</i>, the totality of outcomes is given by</p><pre><br>
+<i>                            M(n,n)    = 1,
+                            M(n-1,n)  = 0,
+                            M(n-2,n)  = [n!/2!(n-2)!]M(0,2),
+                            M(n-3,n)  = [n!/3!(n-3)!]M(0,3),
+                                  .........
+                            M(1,n)    = nM(0,n-1),
+                            M(0,n)    = n!-SUM<sub>j</sub><sup>n</sup>M(j,n)</i></pre><br>
+The <i>M(i,n)</i> are easily computed because the above equations provide a
+simple recursive scheme for the calculations. We obtain the probability 
+of <i>i</i> matches, <i>i=0,...,n</i> with <i>n</i> urns by dividing each
+<i>M(i,n)</i> by <i>n!</i>. These probabilities are shown in Table 12.</p>
+<p><center><b>Table 12. Sampling Distribution of Trace</b></center><br>
+<pre>
+                                          trace=  
+          n     0       1       2       3       4       5       6       7       8 <br>
+          4    0.375   0.333   0.250   0.000   0.042 
+          5    0.367   0.375   0.167   0.083   0.000   0.008 
+          6    0.368   0.367   0.188   0.056   0.021   0.000   0.001 
+          7    0.368   0.368   0.183   0.062   0.014   0.004   0.001   0.000 
+          8    0.368   0.368   0.184   0.061   0.016   0.003   0.000   0.000   0.000 
+          9    0.368   0.368   0.184   0.061   0.015   0.003   0.000   0.000   0.000 
+          10   0.368   0.368   0.184   0.061   0.015   0.003   0.000   0.000   0.000 
+          11   0.368   0.368   0.184   0.061   0.015   0.003   0.000   0.000   0.000 
+          12   0.368   0.368   0.184   0.061   0.015   0.003   0.000   0.000   0.000 </pre></p>
+<p>It is clear that irrespective of the number <i>n</i> of wines, a trace of 4 
+or more is a highly significant result and a trace in excess of 2 is still 
+significant at the 0.1 level of significance. It is also remarkable that 
+the distribution converges very rapidly in <i>n</i> to a limiting form.</p>
+<p>The other question that is of interest is whether the judges, as a whole, 
+tend to agree or tend not to agree with one another with respect to wine 
+identification. Here we propose the following measure of the degree of 
+agreement among the judges.</p>
+<p>Let <i>m</i> be the number of judges and denote their identification matrices by 
+<i>P<sub>i</sub></i>, <i>i=1,...,n</i>. Let <i>Q=SUM<sub>i</sub><sup>n</sup>P<sub>i</sub></i> and let <i>q<sub>ij</sub></i> be the typical element of
+<i>Q</i>. Since the sum of the elements of each <i>P<sub>i</sub></i> is exactly <i>n</i>, if 
+there <i>m</i> judges, the mean value of each element of <i>Q</i> is <i>mn/n<sup>2</sup>=m/n</i>. We 
+propose as the measure of concordance the variance of the elements of <i>Q</i>, 
+i.e.,</p><br>
+<center><i>V=[1/n<sup>2</sup>]SUM<sub>i</sub><sup>n</sup>[q<sub>ij</sub>-(m/n)]<sup>2</sup></i></center><br>
+<p>If all the judges pick the same permutation matrix, <i>n</i> of 
+the elements of <i>Q</i> will be equal to <i>m</i> and the remaining ones will be zero. 
+In that case the variance over the elements of <i>Q</i> is</p>
+<i><center>V=[1/n<sup>2</sup>][n(m-(m/n))<sup>2</sup>+n(n-1)(m/n)<sup>2</sup>]=m<sup>2</sup>(n-1)/n<sup>2</sup></center</i>
+<p></i></center>If the judges predominantly pick <i>P</i> matrices that are very different, the elements of 
+<i>Q</i> will be relatively more similar and the variance will be small. In order 
+to determine what level of variance is significant, we have to determine 
+the sampling distribution of the variance under the null hypothesis that 
+the judges pick <i>P </i> matrices at random.</p>
+<p>The sampling distributions were determined for the number of wines <i>i</i>, <i>i=4,...,12</i> and the number of 
+judges <i>j</i>, <i>j=4,...,15</i> by Monte Carlo experiments. An experiment 
+for given <i>i</i> and <i>j</i> consisted of picking <i>j</i> out of the <i>i!</i> permutation matrices
+and then computing  <i>V</i> as shown above. Each experiment was replicated 
+10,000 times. Table 13 contains the 10 percent and Table 14 the 5 percent 
+significance levels for <i>V</i>.</p>
+<p><center><b>Table 13. 10 Percent Significance Levels for V</b></center><br>
+ <pre>                                             <i>m</i>=   
+         <i>n</i>    4     5     6     7     8     9     10    11    12    13    14    15 
+          4  1.12  1.44  1.75  2.06  2.38  2.69  3.00  3.31  3.62  3.94  4.25  4.56 
+          5  1.88  1.12  1.36  1.60  1.84  2.08  2.32  2.56  2.80  3.04  3.28  3.52 
+          6  0.72  0.92  1.11  1.31  1.50  1.69  1.89  2.08  2.28  2.44  2.67  2.81 
+          7  0.61  0.78  0.94  1.10  1.26  1.43  1.59  1.76  1.92  2.08  2.24  2.41 
+          8  0.53  0.67  0.81  0.95  1.09  1.23  1.38  1.52  1.62  1.80  1.91  2.08 
+          9  0.46  0.59  0.72  0.84  0.96  1.09  1.21  1.33  1.46  1.58  1.68  1.80 
+         10  0.42  0.53  0.64  0.75  0.86  0.97  1.08  1.17  1.30  1.41  1.52  1.63 
+         11  0.38  0.48  0.58  0.68  0.78  0.88  0.98  1.07  1.17  1.26  1.37  1.46 
+         12  0.34  0.44  0.53  0.62  0.71  0.80  0.89  0.98  1.07  1.15  1.25  1.34</pre><br> 
+<center><b>Table 14. 5 Percent Significance Levels for V</b></center><br>
+
+<pre>                                             <i> m=   </i>
+         <i>n</i>    4     5     6     7     8     9     10    11    12    13    14    15 
+          4  1.25  1.69  2.00  2.31  2.75  3.06  3.38  3.81  4.12  4.56  4.75  5.19 
+          5  0.96  1.28  1.52  1.76  2.08  2.32  2.56  2.80  3.12  3.36  3.68  3.92 
+          6  0.78  1.03  1.22  1.41  1.67  1.81  2.06  2.26  2.50  2.64  2.89  3.08 
+          7  0.65  0.82  1.02  1.18  1.39  1.55  1.71  1.88  2.04  2.24  2.41  2.57 
+          8  0.56  0.67  0.81  1.02  1.16  1.33  1.47  1.61  1.75  1.92  2.06  2.20 
+          9  0.49  0.64  0.76  0.89  1.02  1.16  1.28  1.40  1.53  1.68  1.80  1.93 
+         10  0.44  0.57  0.68  0.79  0.90  1.01  1.14  1.25  1.36  1.49  1.60  1.71 
+         11  0.40  0.51  0.61  0.71  0.81  0.93  1.02  1.12  1.22  1.32  1.44  1.54 
+         12  0.35  0.47  0.56  0.64  0.74  0.83  0.93  1.02  1.11  1.20  1.31  1.40</pre><br> 
+
+<p><i>Identifying Types of Wines</i>.<a name="f15"></a>We assume, in 
+conformity with previous assumptions, that judges are informed of how many 
+wines of Type I and how many of Type II are present in the sample to be 
+tasted.<a href="footnote15.htm"><sup>15</sup></a> Before we present tables of the distributions of the number 
+correctly identified under the null of random assignements, consider the 
+following example. Let us assume that there are nine wines in all, four of 
+which are of type X and five of which are of type Y and let us depict 
+the &quot;true&quot; pattern in the sample as<br><pre>
+                             X  X  X  X  Y  Y  Y  Y  Y</pre>
+Now imagine that a particular judge guesses the pattern to be<br><pre>
+                             X  X  X  Y  X  Y  Y  Y  Y</pre>
+In that case, he/she will have identified the types of seven wines correctly. 
+In how many ways can this occur? Making two mistakes implies that one 
+X-type wine is identified as a Y and one Y-type wine is identified as an 
+X. In the present case you  can choose the X which will be misidentified 4!/1!3! ways and 
+the Y which will be misidentified as an X in 5!/1!4! ways, for a total of 20 ways. 
+Can you have exactly six or eight wines identified correctly? The answer 
+is that there are no ways in which you can have six or eight correct 
+identifications: for example, to reduce the number of correct identifications, 
+an additional X must be identified as a Y; but that means that an additional 
+Y will also be identified as an X, hence if seven correct identifications 
+is possible, then neither six nor eight will ever be possible. In fact, 
+since if there are <i>n</i> wines, with <i>n<sub>1</sub></i> of type X and<i> n<sub>2</sub></i> of type Y, <i>n</i> correct 
+identifications is always a possible outcome, the number of possible correct 
+identifications is <i>n, n-2, n-4</i>, with the last term in the series for
+possible correct number of identifications being <i>n-2min(n<sub>1</sub>,n<sub>2</sub>)</i>.</p>
+
+<p>We display the distributions for the number of wines correctly 
+identified for selected values of <i>n<sub>1</sub></i> and <i>n<sub>2</sub></i> in Table 15.</p><br>
+<center><b>Table 15. Probabilities for the Number of Correctly Identified Wines</b></center><pre>
+ <pre>
+                              n<sub>1</sub>=4    n<sub>1</sub>=4    n<sub>1</sub>=4    n<sub>1</sub>=5     n<sub>1</sub>=5    n<sub>1</sub>=6  
+                              n<sub>2</sub>=4    n<sub>2</sub>=5    n<sub>2</sub>=6    n<sub>2</sub>=5     n<sub>2</sub>=6    n<sub>2</sub>=6
+                  Number                  Probabilities   
+
+                   0         0.014   0.      0.      0.004   0.      0.001
+                   1         0.      0.040   0.      0.      0.013   0.   
+                   2         0.229   0.      0.071   0.099   0.      0.039
+                   3         0.      0.317   0.      0.      0.162   0.   
+                   4         0.514   0.      0.381   0.397   0.      0.244
+                   5         0.      0.476   0.      0.      0.433   0.   
+                   6         0.229   0.      0.429   0.397   0.      0.433
+                   7         0.      0.159   0.      0.      0.325   0.   
+                   8         0.014   0.      0.114   0.099   0.      0.244
+                   9         0.      0.008   0.      0.      0.065   0.   
+                  10         0.      0.      0.005   0.004   0.      0.039
+                  11         0.      0.      0.      0.      0.002   0.   
+                  12         0.      0.      0.      0.      0.      0.001</pre><br>
+<p>It is easily seen that there generally does not exist a clear-cut critical 
+value for the number of correctly identified wines at the 5 percent or 10 
+percent level, because of the discreteness of the distributions. So, for 
+example, if <i>n<sub>1</sub>=4</i> and <i>n<sub>2</sub>=5</i>, 7 or more correctly identified wines mean 
+that randomness is rejected at the 0.167 level. Eight or more correctly 
+identified wines reject the randomness hypothesis at roughly the 0.1 level 
+for the next two columns,  nine (respectively ten) reject randomness at
+roughtly the .05 level for the last two columns.</p>
+
+<p>The last case we consider is the one in which there are three types of 
+wines, which we label with X, Y, and Z. The situation is quite different in 
+this case, although two facts remain true: (1) there is exactly one way in 
+which the number of correct  identifications can be equal to the number of wines 
+<i>n</i>, and (2) there is no way in which exactly <i>n-1</i> wines are correctly 
+identified. But it is no longer the case that the number of correct 
+identifications is either always an even number or always an odd number. Consider 
+the &quot;true&quot; pattern<br>
+<pre>                              X  X  Y  Y  Y  Z  Z  Z</pre><br>
+The judge's following potential identification patterns produce, respectively, 
+0, 1, 2, 3, 4, 5, 6, and 8 correct identifications:<br><pre>>
+                              Y  Y  Z  Z  Z  X  X  Y
+                              Y  Z  Z  Z  Y  X  X  Y
+                              X  X  Z  Z  Z  Y  Y  Y
+                              X  Y  Z  Z  Y  Y  Z  X
+                              X  X  Y  Z  Z  Z  Y  Y
+                              X  Y  Y  Y  Z  X  Z  Z
+                              X  Y  Y  Y  X  Z  Z  Z
+                              X  X  Y  Y  Y  Z  Z  Z</pre><br>
+For a few selected values of <i>n<sub>1</sub></i>, <i>n<sub>2</sub></i>, <i>n<sub>3</sub></i> 
+we display the probability distributions in Table 16.</p><br>
+<center><b>Table 16. Probabilities for the Number of Correctly Identified Wines</b></center><br>
+<pre>
+                                    n<sub>1</sub>=2    n<sub>1</sub>=3    n<sub>1</sub>=3    n<sub>1</sub>=3
+                                    n<sub>2</sub>=3    n<sub>2</sub>=3    n<sub>2</sub>=3    n<sub>2</sub>=3
+                                    n<sub>3</sub>=3    n<sub>3</sub>=3    n<sub>3</sub>=4    n<sub>3</sub>=5
+                         Number             Probability   
+                           0       0.043   0.033   0.019   0.006
+                           1       0.150   0.129   0.088   0.049
+                           2       0.259   0.225   0.190   0.139
+                           3       0.257   0.259   0.246   0.224
+                           4       0.188   0.193   0.225   0.237
+                           5       0.064   0.112   0.137   0.187
+                           6       0.      0.032   0.071   0.097
+                           7       0.002   0.      0.017   0.046
+                           8       0.      0.001   0.008   0.010
+                           9       0.      0.      0.      0.004
+                          10       0.      0.      0.000   0.   
+                          11       0.      0.      0.      0.000</pre><br>
+
+<p>Thus, with three wines of type X, three of type Y and five of type Z, one  
+needs at least seven correct identifications in order to assert at  
+approximately the 0.05 level that the result is significantly better than random.</p>
+<p>A final question is how the critical value depends on how many types of 
+wines there are in a tasting. There is obviously no straightforward answer, 
+because there are two many things that can vary: the total number of wines, 
+the number of types of wines, and the number of wines within each type. 
+But consider a simplified experiment in which we fix the total number of 
+wines at some power of 2; say 2<sup>7</sup>=128. We could then consider, alternately, 
+2 types of wines with 64 wines of each type, or 4 types with 32 wines of 
+each type, or 8 types with 16 wines each, 16 types with 8 wines each, 32 
+types of 4 wines each, and finally 64 types of 2 wines each. It is 
+intuitively obvious that if we guess randomly, we will tend to score the 
+highest degree of correct identification in the first case and the lowest 
+in the last. For imagine that in the first case we arbitrarily identify 
+the first 64 wines as type X and the last 64 as type Y. If the order in 
+which the wines have been arranged is random, we shall correctly identify 
+on the average 64 of the 128 wines. In the last case, when there are 64 
+types of 2 wines each, the average number of identifications will be 
+much smaller. To look at this in another way, in the first case there 
+is only a single outcome in which no wine is correctly identified (i.e., 
+the outcome in which the judge guesses the first 64 wines to be of type X, 
+whereas they are all of type Y, but in the last case there is a huge 
+number of possible outcomes in which no wine is correctly identified. We 
+would therefore expect that as the number of types of wine in the tasting 
+declines (with the number of wines in each type increasing), the critical 
+value above which we reject the null hypothesis of randomness in the 
+identification has to increase.</p>
+<p>This in fact is the case and we display the dependence of the 5% critical 
+value in Figure 1. <a name="f16"></a>The relation between the critical value and the number 
+of types of wine is well approximated by a rectangular hyperbola with a 
+horizontal asymptote of 4.52, which agrees well with what we would expect 
+from Table 12.<a href="footnote16.htm"><sup>16</sup></a></p>
+<center><b>Figure 1. Critical Values as a Function of the Number of Types</b></center><br>
+<pre>            Crit.value</pre><br>
+<p align="center"><img src="quandt.jpg" border=0 height="300" width="480" alt="Figure 1 is not available as yet but will be provided soon."></p>
+<pre>    </pre>
+<center><b>5. Concluding Comments</b></center><br>
+<p>In this paper, we considered three types of questions: (1) How do we 
+use the rankings of wines by a set of judges to determine whether some 
+wines are perceived to be significantly good or bad, (2) How do we judge 
+the strength of the (various possible) correlations among the judges' 
+rankings, and (3) How do we determine whether the judges are able to 
+identify the wines or the types of wines significantly better than would 
+occur by chance alone. We are able to find appropriate techniques for each 
+of these questions, and their application is likely to yield considerable 
+insights into what happens in a blind tasting of wines.</p>
+<p align="center"><a href="index.html">Return to Front Page</a></p>
+</body>
+</html>
