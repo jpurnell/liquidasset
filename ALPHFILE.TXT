@@ -1,0 +1,872 @@
+                    COMPACT ALPHABETIC LIST
+ Wine name (abbr.)               Year Bot C   Price   Reg  Shipper       Grape
+
+ Abadia Retuerta                 2011   5 r   25.00   Spa  Sardon del Duero
+ Adelsheim Elizabeth's Reserve   2005   1 r   49.00   Ame  Oregon         PN
+ Alcina Pinot Noir               2003   1 r   48.00   Ame  Alcina         PN
+ Alexander Valley Vineyards      2001   1 r   15.00   Ame  Wetzel         CS
+ Aloxe Corton                    1978   3 r   11.00   Bur  Cauvard        PN
+ Anwilka                         2005   5 r   35.99   Sou  Stellembosch   CS
+ Antucura                        2012   2 r   15.00   Arg  Mendoza, MalbecMA
+ Ardanza                         2004   1 r   27.00   Spa  Rioja Alta     TE
+ Argyle Nuthouse Willamette      2000   1 r   60.00   Ame  Oregon         PN
+ Arrowood Sonoma Sp. Res Cab.Sauv2001   1 r   90.00   Ame  Sonoma         CS
+ Arterberry Maresh, Dundee Hills 2009   2 r           Ame  Dundee Hills   PN
+ Bandol                          1999   1 r           Pro  Domaine Tempier
+ Bandol                          1994   1 r   56.00   Pro  Domaine Tempier
+ Bandol Gros Nore                2009   3 r   40.00   Pro  Domaine du Gros Nore
+ Bandol Cabassou                 2003   1 r           Pro  Domaine Tempier
+ Bandol Cabassou                 2006   1 r           Pro  Domaine Tempier
+ Bandol Cabassou                 2005   1 r           Pro  Domaine Tempier
+ Bandol Migoua                   2007   1 r           Pro  Domaine Tempier
+ Bandol Tardieu Laurent          2007   1 r           Pro  Tardieu Laurent
+ Bandol Terrebrune               2007   1 r           Pro  Domaine Terrebrune
+ Bandol de la Tour du Bon        2007   1 r           Pro  Domaine dela Tour
+ Bandol de la Tour du Bon        2008   2 r   63.00   Pro  Domaine dela Tour
+ Bandol de la Tour du Bon        2010   2 r   25.00   Pro  Domaine dela Tour
+ Bandol de la Tour du Bon        2014   2 ro  25.00   Pro  Domaine dela Tour
+ Bandol Tardieu  Laurent         2008   2 r   25.00   Pro  Domaine dela Tour
+ Bandol Domaine  du Gros' Nore   2007   2             Pro  Gros' Nore
+ Bandol Migoua                   2004   1rr           Pro  Domaine Tempier
+ Bandol Migoua                   2005   1 r           Pro  Domaine Tempier
+ Bandol Tourtine                 2003   1 r           Pro  Domaine Tempier
+ Bandol Tourtine                 1995   1 r   71.00   Pro  Domaine Tempier
+ Bandol Cabassou                 2004   1 r           Pro  Domaine Tempier
+ Bandol Pibarnon                 2005   7 r   52.00   Pro  Pibarnon
+ Barmes Herrenweg Gewurztraminer 2004   9 w   20.00   Als  Alsace         GE
+ Barmes Herrenweg Gewurztraminer 2005   5 w   17.85   Als  Alsace         GE
+ Barmes Wintzenheim Gewurztramin 2005   5 w   25.50   Als  Alsace         GE
+ Barolo ris                      1995   1 r   80.00   Ita  Conterno
+ Barolo                          1996   1 r   80.00   Ita  Conterno
+ Barolo                          1997   1 r   80.00   Ita  Conterno
+ Barolo                          2011   2 r   80.00   Ita  Elio Grasso
+ Batard-Montrachet               2002   2 w           Bur  Maltroye       CH
+ Batard-Montrachet               1995   2 w           Bur  Pierre Colin   CH
+ Batard-Montrachet               2002   1 w  180.00   Bur  Henri Boillot  CH
+ Batard-Montrachet               2004   1 w  200.00   Bur  Latour         CH
+ Beaune du Chateau               2002   3 r   22.00   Bur  Bouchard       PN
+ Beaune-Greves                   1995   1 r    0.00   Bur  Moillard       CS
+ Beaune-Greves                   2002   1 r   54.00   Bur  Bouchard       PN
+ Beaune-Theurons                 1995   1 r   16.00   Bur  Jadot          PN
+ Beaux Freres                    2005   1 r   80.00   Ame  Oregon         PN
+ Becklyn                         2012   1 r  130.00   Ame  Napa           CS
+ Bergstrom                       2006   1 r   75.00   Ame  Oregon         PN
+ Beringer Knights Valley         2000   2 r   20.00   Ame  Beringer       CS
+ Bienvenue Batard Montrachet     2009   1 w           Bur  Boillot        CH
+ Bienvenue Batard Montrachet     2000   1 w           Bur  Boillot        CH
+ Binder, Rolf Hanish             2006   2 r   60.00   Aus  Barossa        SH
+ Boal, Madeira                   1968   1 w    0.00   Por  D'Oliveiras
+ Bogle                           2000   1 r   10.00   Ame                 ZI
+ Bonnes-Mares                    1998   1 r  225.00   Bur  Vogue          PN
+ Bonnes-Mares                    2002   1 r  120.00   Bur  Vogue          PN
+ Bonnes-Mares                    1995   1 r   60.00   Bur  Moillard       PN
+ Bonnes-Mares                    1995   1 r   60.00   Bur  Drouhin        PN
+ Bonnes-Mares                    2004   1 r  130.00   Bur  Groffier       PN
+ Bonnes-Mares                    2006   1 r  134.00   Bur  Potel          PN
+ Bonnes-Mares                    1997   1 r  134.00   Bur  Moillard-GrivotPN
+ Bouchaine                       1995   1 r    0.00   Ame  Bouchaine      PN
+ Bourgogne                       1976   3 r   25.00   Bur  de Montille    PN
+ Brogan Cellars Pinot Noir       2008   3 r   85.00   Ame  Brogan         PN
+ Brunello di Montalcino ris.     2001   2 r   40.00   Ita  Castelgiocondo
+ Brunello di Montalcino          2004   1 r   40.00   Ita  Casanova di Neri
+ Brunello di Montalcino          2007   2 r   40.00   Ita  Cacci Piccoloimini
+ Brunello di Montalcino          2008   2 r   40.00   Ita  Conto Costanti SG
+ Brunello di Montalcino          2010   2 r   40.00   Ita  Caparzo        SG
+ Brunello di Montalcino          2010   4 r   70.00   Ita  Poggione       SG
+ Brunello di Montalcino          2010   2 r   70.00   Ita  La Cecciaia    SG
+ Brunello di Montalcino          2009   2 r   70.00   Ita  La Cecciaia    SG
+ Brunello di Montalcino          2010   2 r   30.00   Ita  Renieri        SG
+ Brunello di Montalcino          2010   2 r   75.00   Ita  Conti Costanti SG
+ Brunello di Montalcino          2010   2 r   75.00   Ita  Le Ragnaie     SG
+ Brunello di Montalcino          2010   2 r   75.00   Ita  Castelgiocondo SG
+ Brunello di Montalcino          2010   2 r   75.00   Ita  Villa Cipressi SG
+ Brunello di Montalcino          2010   1 r           Ita  Argiano        SG
+ Brunello di Montalcino          2008   1 r   75.00   Ita  Villa al Cortile
+ Cadeau Cote                     2005   1 r   40.00   Ame  Oregon         PN
+ Carmin de Peumo Carmenere       2008   1 r   65.00   Chi  Concha y Toro  CA
+ Caymus                          2011   2 r   70.00   Ame  Napa
+ Caymus                          2012   2 r   70.00   Ame  Napa
+ Cambria                         1999   2 r    0.00   Ame  Tepusquet
+ Capcanes Cabrida                2001   1 r   50.00   Spa  Montsant       TE
+ Cape d'Estaing                  1998   2 r    0.00   Aus                 SI
+ Carmelo Patti                   2003   3 r           Arg  Mendoza
+ Carneros Reserve                1991   1 r    0.00   Ame  Beaulieu       PN
+ Caro Rothschild-Catena          2012   2 r           SAm  Mendoza
+ Castello della Paneretta        1996   5 r   33.00   Ita
+ Castillo Ygay                   1959   1 r    0.00   Spa  Marques de Mu  TE
+ Catena Zapata                   2007   2 r   80.00   Arg  Mendoza
+ Catena Zapata                   2008   2 r   80.00   Arg  Mendoza
+ Catena Zapata                   2010   1 r   80.00   Arg  Mendoza
+ Catena Zapata Nicasia           2007   2 r   40.00   Arg  Mendoza        MA
+ Ch. Beaucastel                  2011   2 w   43.00   Rho  Perrin
+ Ch. Beauregard                  1997   1 r   43.00   Bor  Pomerol
+ Ch. Beychevelle                 1983   2 r    0.00   Bor                 CS
+ Ch. Beychevelle                 1997   1 r   36.00   Bor                 CS
+ Ch. Boyd Cantenac               2010   2 r   45.00   Bor  Margaux        CS
+ Ch. Brane Cantenac              1997   1 r   27.00   Bor                 CS
+ Ch. Calon Segur                 1983   3 r    0.00   Bor                 CS
+ Ch. Calon Segur                 2004   2 r   42.00   Bor                 CS
+ Ch. Calon Segur                 1995   2 r    0.00   Bor                 CS
+ Ch. Calon Segur                 2005   2 r    0.00   Bor                 CS
+ Ch. Canon-la-Gaffeliere         1995   2 r    0.00   Bor                 CS
+ Ch. Cheval Blanc                1995   1 r           Bor  St. Emilion    CS
+ Ch. Clinet                      1994   1 r    0.00   Bor
+ Ch. Clinet                      1995   1 r    0.00   Bor
+ Ch. Clinet                      1996   1 r    0.00   Bor
+ Ch. Clinet                      1997   1 r    0.00   Bor
+ Ch. Clinet                      1998   1 r   90.00   Bor
+ Ch. La Conseillante             1995   1 r  149.00   Bor  Pomerol
+ Ch. Doisy Daene                 1981   2 w    0.00   Bor
+ Ch. Doisy Vedrines              1986   1 w    0.00   Bor
+ Ch. Doisy Vedrines              1989   1 w    0.00   Bor
+ Ch. Ducru Beaucaillou           1975   1 r    0.00   Bor                 CS
+ Ch. Ducru Beaucaillou           1995   2 r    0.00   Bor                 CS
+ Ch. Durfort Vivens              2000   5 r    0.00   Bor                 CS
+ Ch. Fargues                     1975   1 w    0.00   Bor
+ Ch. Filhot                      1970   1 w    0.00   Bor
+ Ch. Giscours                    2004   1 r   36.00   Bor                 CS
+ Ch. Gloria                      1997   1 r   23.00   Bor                 CS
+ Ch. Grand-Puy Lacoste           1997   2 r    0.00   Bor                 CS
+ Ch. Grand-Puy Lacoste           1996   1 r  119.00   Bor                 CS
+ Ch. Grand-Puy-Lacoste           1995   1 r    0.00   Bor                 CS
+ Ch. Gruaud Larose               1990   1 r    0.00   Bor                 CS
+ Ch. Gruaud Larose               1995   1 r    0.00   Bor                 CS
+ Ch. Gruaud Larose               1997   2 r   35.00   Bor                 CS
+ Ch. Gruaud Larose               1998   2 r   55.00   Bor                 CS
+ Ch. Haut Bernasse               1998   1 w    0.00   Mon  Blais
+ Ch. Haut Brion                  1997   3 r  125.00   Bor                 CS
+ Ch. Haut-Brisson                2005   1 r           Bor                 CS
+ Ch. Haut Faugeres               2010   2 r   25.00   Bor  St. Emilion    CS
+ Ch. Haut-Milon                  1997   3 r   26.00   Bor                 CS
+ Ch. La Conseillante             1996   1 r   60.00   Bor                 CS
+ Ch. La Grangere                 1997   1 r   34.00   Bor                 CS
+ Ch. Lagrange                    2010   2 r   60.00   Bor  St. Julien     CS
+ Ch. La Lagune                   1983   2 r    0.00   Bor                 CS
+ Ch. la Mission Haut Brion       1975   4 r  100.00   Bor                 CS
+ Ch. La Mission Haut Brion       1994   1 r    0.00   Bor                 CS
+ Ch. La Mission Haut-Brion       1995   1 r   80.00   Bor                 CS
+ Ch. LaFleur de Gay              1995   1 r  100.00   Bor
+ Ch. Lafite Rothschild           1995   2 r  220.00   Bor                 CS
+ Ch. Lanessan                    2000   3 r   17.00   Bor                 CS
+ Ch. Larcis Ducasse              2004   2 r           Bor                 CS
+ Ch. Lascombes                   2004   2 r   90.00   Bor                 CS
+ Ch. Lascombes                   2005   1 r   90.00   Bor                 CS
+ Ch. Latour                      1996   1 r  240.00   Bor                 CS
+ Ch. Latour                      1997   3 r  125.00   Bor                 CS
+ Ch. Latour                      1997   2 r  125.00   Bor                 CS
+ Ch. Latour                      1998   2 r  164.00   Bor                 CS
+ Ch. Leoville Barton             1997   1 r   62.00   Bor                 CS
+ Ch. Leoville Barton             1998   3 r   59.00   Bor                 CS
+ Ch. Leoville Las Cases          1996   1 r   85.00   Bor                 CS
+ Ch. Leoville Poyferre           1995   1 r   45.00   Bor                 CS
+ Ch. Leoville Poyferre           1998   2 r   49.00   Bor                 CS
+ Ch. Leoville Poyferre           2004   2 r   40.00   Bor                 CS
+ Ch. Lynch Bages                 1978   1 r    0.00   Bor                 CS
+ Ch. Lynch Bages                 1994   1 r   50.00   Bor                 CS
+ Ch. Lynch Bages                 1995   3 r   70.00   Bor                 CS
+ Ch. Lynch Bages                 1996   1 r  140.00   Bor                 CS
+ Ch. Lynch Bages                 2008   2 r  100.00   Bor       Pauillac  CS
+ Ch. Lynch Bages                 2009   2 r  100.00   Bor       Pauillac  CS
+ Ch. Lynch Bages                 1997   2 r   39.00   Bor                 CS
+ Ch. Malartic Lagraviere         2007   2 w           Bor                 CS
+ Ch. Margaux                     1995   1 r  240.00   Bor                 CS
+ Ch. Margaux                     1997   1 r  399.00   Bor                 CS
+ Ch. Margaux                     1998   1 r  160.00   Bor                 CS
+ Ch. Marquis de Terme            1995   1 r    0.00   Bor                 CS
+ Ch. Meyney                      1982   1 r    0.00   Bor                 CS
+ Ch. Myrat                       2007   3 w           Bor                 SB
+ Ch. Montelena                   1985   1 r   80.00   Ame                 CS
+ Ch. Montelena                   1988   1 r    0.00   Ame                 CS
+ Ch. Montelena                   1993   1 r   89.00   Ame                 CS
+ Ch. Montelena                   1996   5 r  109.00   Ame                 CS
+ Ch. Montelena                   1999   5 r   22.00   Ame                 CS
+ Ch. Montelena                   2000   1 r   79.00   Ame                 CS
+ Ch. Montrose                    1985   1 r    0.00   Bor                 CS
+ Ch. Montrose                    1995   3 r  109.00   Bor                 CS
+ Ch. Montrose                    2006   1 r  109.00   Bor                 CS
+ Ch. Montrose                    2008   3 r  109.00   Bor                 CS
+ Ch. Montus Madiran              1995   2 r   55.00   Mad  Alain Brumont
+ Ch. Mouton Rothschild           1995   1 r  350.00   Bor                 CS
+ Ch. Mouton Rothschild           2004   2 r  200.00   Bor                 CS
+ Ch. Musar                       1975   1 r   70.00   Leb
+ Ch. Musar                       1997   1 r   70.00   Leb
+ Ch. Musar                       1994   1 r   55.00   Leb
+ Ch. Musar                       1980   1 r   85.00   Leb
+ Ch. Palmer                      1997   2 r   60.00   Bor                 CS
+ Ch. Palmer                      1998   1 r  100.00   Bor                 CS
+ Ch. Pape Clement                1997   3 r   34.00   Bor                 CS
+ Ch. Pape Clement                1998   2 r   68.00   Bor                 CS
+ Ch. Pape Clement                2012   1 r   68.00   Bor                 CS
+ Ch. Pavie                       1995   1 r   30.00   Bor                 CS
+ Ch. Pavie                       1997   2 r    0.00   Bor                 CS
+ Ch. Peybonhomme Les Tours       1997   1 r   12.00   Bor                 CS
+ Ch. Phelan Segur                1997   2 e   25.00   Bor                 CS
+ Ch. de Pibarnon                 2005   1 r   75.00   Pro Pibarnon
+ Ch. Pichon Longueville Baron    2004   2 r   75.00   Bor                 CS
+ Ch. Pichon Longueville Baron    1995   1 r  109.00   Bor                 CS
+ Ch. Pichon Longueville Baron    1996   1 r  129.00   Bor                 CS
+ Ch. Pichon Longueville Contess  1986   1 r  249.00   Bor                 CS
+ Ch. Pichon Longueville Contess  1996   1 r  100.00   Bor                 CS
+ Ch. Pichon Longueville Contess  1997   3 r   43.00   Bor                 CS
+ Ch. Pichon Longueville Contess  2004   2 r   72.00   Bor                 CS
+ Ch. Pontet Canet                2010   1 r           Bor                 CS
+ Ch. Prieure Lichine             1978   1 r    0.00   Bor                 CS
+ Ch. Prieure Lichine             1982   3 r    0.00   Bor                 CS
+ Ch. Prieure Lichine             1983   1 r    0.00   Bor                 CS
+ Ch. Gran Puy-Lacoste            2005   1 r   60.00   Bor  Pauillac       CS
+ Ch. Ramafort                    2000   3 r   18.00   Bor                 CS
+ Ch. Raymond-Lafon               1980   1 w  135.00   Bor                 SB
+ Ch. Rieussec                    1988   1 w           Bor                 SB
+ Ch. Rieussec                    2009   2 w           Bor                 SB
+ Ch. Simone rose                 1913   2 s   60.00   Pro  Pallette
+ Ch. Sociando-Mallet             1982   1 r    0.00   Bor                 CS
+ Ch. Suduiraut                   1995   1 w   80.00   Bor
+ Ch. Suduiraut                   2009   2 w   80.00   Bor                 SB
+ Ch. Talbot                      1997   4 r   37.00   Bor                 CS
+ Ch. Tertre Daugay               1998   2 r   34.00   Bor                 CS
+ Ch. Tirecul Cuvee Madame        1994   1 w  190.00   Mon  C.& B. Bilanc
+ Ch. Troplong Mondot             1995   2 r    0.00   Bor                 CS
+ Ch. d'Yquem                     1976   1 w    0.00   Bor
+ Ch. de Fonsalette               1988   1 r    0.00   Rho  Reynaud
+ Ch. de l'Evangile               1994   1 r    0.00   Bor
+ Ch. de l'Evangile               1995   2 r    0.00   Bor
+ Ch. du Tertre                   2004   2 r   28.00   Bor                 CS
+ Ch. d'Issan                     2005   2 r           Bor  Margaux        CS
+ Ch. l'Enclos                    1995   1 r   29.75   Bor
+ Ch. la Croix de Gay             1997   2 r   26.00   Bor
+ Ch.Fleur Cardinale              2004   6 r   27.00   Bor                 CS
+ Chablis 1er Cru Mont de Milieu  1999   1 w   18.00   Cha  Domaines Chab
+ Chablis Fourchaume              1985   1 w   15.00   Cha  F. Chauvenet
+ Chablis Gran Cru Les Clos       2002   1 w   42.00   Bur  Pinson         CH
+ Chablis Grand Cru Les Clos      2004   2 w   50.00   Bur  Pinson         CH
+ Chablis Grand Cru Les Clos      2002   1 w   75.00   Bur  Pinson         CH
+ Chablis Grand Cru Les Clos      2008   1 w   79.00   Bur  Droin          CH
+ Chablis Grand Cru Vaudesir      2002   1 w   40.00   Bur  Malandes       CH
+ Chablis Grand Cru Valmur        2003   1 w  120.00   Bur  Raveneau       CH
+ Chablis Grand Cru Valmur        2008   1 w   75.00   Bur  Droin          CH
+ Chablis Premier cruMonts Mains  2002   2 w   99.00   Bur  Ravenau        CH
+ Chablis Premier cruMontesdeTonne2007   2 w  119.00   Bur  Ravenau        CH
+ Chablis Premier cruVaillons     2000   2 w   99.00   Bur  Ravenau        CH
+ Chablis Premier cruVaillons     2002   2 w   99.00   Bur  Ravenau        CH
+ Chablis Premier cruVaillons     2014   2 w   28.00   Bur  Daniel Dampt   CH
+ Chablis Premier cru Forets      2004   1 w   89.00   Bur  Ravenau        CH
+ Chablis Premier cru Forets      2002   1 w   99.00   Bur  Ravenau        CH
+ Chalk Hill                      2000   1 w   20.00   Ame                 CH
+ Chambertin                      2002   2 r  100.00   Bur  Tortochot      PN
+ Chambertin                      2005   1 r  115.00   Bur  Jadot          PN
+ Chambertin                      2002   2 r   41.00   Bur  Roux Pare & F  PN
+ Chambertin                      1996   2 r  100.00   Bur  Jadot          PN
+ Chambertin                      2012   1 r  140.00   Bur  Boillot        PN
+ Chambertin Charmes              1995   1 r  140.00   Bur  Laurent        PN
+ Chambertin Charmes              2002   2 r   70.00   Bur  Tortochot      PN
+ Chambertin Charmes              2005   1 r   84.00   Bur  Magnien        PN
+ Chambertin Charmes              2005   2 r  140.00   Bur  Dupont-Tisser. PN
+ Chambertin Charmes              1997   1 r  140.00   Bur  Charlopinsser. PN
+ Chambertin Charmes              2004   1 r  120.00   Bur  Armand RousseauPN
+ Chambertin Chappelle            2003   1 r  130.00   Bur  Jadot          PN
+ Chambertin Clos de Beze         2000   1 r  110.00   Bur  Drouhin-Laroz  PN
+ Chambertin Clos de Beze         2006   1 r  120.00   Bur  Potel          PN
+ Chambertin Gevrey Clos St.Jacque2003   3 r   60.00   Bur  Jadot          PN
+ Chambertin Gevrey Clos Prieur   2002   3 r   24.00   Bur  Esmonin        PN
+ Chambertin Gevrey 1er cru       2002   1 r   21.00   Bur  Esmonin        PN
+ Chambertin Gevrey 1er cru       1999   1 r   21.00   Bur  Bruno Clair    PN
+ Chambertin Gevrey               2005   1 r           Bur  Rion           PM
+ Chambertin Gevrey               1995   1 r           Bur  Groffier       PN
+ Chambertin Gevrey               1998   1 r           Bur  Fourrier       PN
+ Chambertin Griotte              1997   1 r   60.00   Bur  Chezeaux       PN
+ Chambertin Latriciere           1998   1 r   40.00   Bur  Trapet         PN
+ Chambertin Latriciere           2002   1 r   70.00   Bur  Girardin       PN
+ Chambertin Latriciere           1990   1 r  150.00   Bur  Faiveley       PN
+ Chambertin Latriciere           2005   1 r  110.00   Bur  Potel          PN
+ Chambertin Latriciere           2005   2 r  112.00   Bur  Drouhin Laroze PN
+ Chambertin Latriciere           2002   1 r  100.00   Bur  Drouhin Laroze PN
+ Mazis-Chambertin                1995   1 r    0.00   Bur  Jadot          PN
+ Mazis-Chambertin Hosp. de Beau  1988   1 r    0.00   Bur  Faivelet       PN
+ Mazis-Chambertin                1995   1 r    0.00   Bur  Laurent        PN
+ Mazis-Chambertin                2002   1 r   75.00   Bur  Tortochot      PN
+ Ruchottes-Chambertin Gr.Cru     2003   1 r   70.00   Bur  Rousseau       PN
+ Ruchottes-Chambertin Gr.Cru     2004   1 r  180.00   Bur  Roumier        PN
+ Chambolle Musigny               1972   1 r    0.00   Bur  Raoul Clerget  PN
+ Chambolle Musigny               1995   2 r    0.00   Bur  Barthot        PN
+ Chambolle Musigny               1996   1 r   40.00   Bur  Barthot        PN
+ Chambolle-Musigny               1995   1 r   50.00   Bur  Roumier        PN
+ Chambolle-Musigny               1997   1 r  125.00   Bur  Vogue          PN
+ Chambolle-Musigny 1er cru       1997   1 r  125.00   Bur  Lignier        PN
+ Chambolle-Musigny               2005   1 r   75.00   Bur  Rione          PN
+ Chambolle-Musigny Les Amoureuses2004   1 r  140.00   Bur  Comte de Vogue PN
+ Chambolle-Musigny Charmes 1er cr2005   1 r   90.00   Bur  Rion           pn
+ Chassagne Montrachet Camp-Gains 1999   3 r   40.00   Bur  Morey          PN
+ Chassagne Montrachet Embrazees  2004   2 r   60.00   Bur  Morey,1ercru   PN
+ Chassagne Montrachet Morgeot    1999   3 w   27.00   Bur  Ramonet        CH
+ Chassagne Montrachet Morgeot    2005   3 w   45.00   Bur  Morey          CH
+ Chassagne Montrachet Vieilles V 2006   2 w   50.00   Bur  Morey          CH
+ Chassagne Montrachet Chenevotte 2007   2 w   50.00   Bur  Morey          CH
+ Chateauneuf du Pape             2005   2 r   40.00   Rho  Chante de MerleGR
+ Chateauneuf du Pape             2010   2 r   32.00   Rho  Jean Deydier   GR
+ Chateauneuf du Pape             2011   2 r   32.00   Rho  Moulin TacouselGR
+ Chateauneuf du Pape             1972   1 r    0.00   Rho  Beaucastel     GR
+ Chateauneuf du Pape             1989   1 r    0.00   Rho  L. & A. Brune  GR
+ Chateauneuf du Pape             1995   1 r   40.00   Rho  Beaucastel     GR
+ Chateauneuf du Pape             1999   2 r   52.00   Rho  Beaucastel     GR
+ Chateauneuf du Pape             2000   1 r   52.00   Rho  Beaucastel     GR
+ Chateauneuf du Pape             2012   2 r   72.00   Rho  Beaucastel     GR
+ Chateauneuf du Pape             1997   1 r   40.00   Rho  Dom. du Pegau  GR
+ Chateauneuf du Pape             1997   1 r   38.00   Rho  Vieux Telegra  GR
+ Chateauneuf du Pape             1998   2 r   20.00   Rho  Haut des Terr  GR
+ Chateauneuf du Pape             2000   1 r   33.00   Rho  Marcoux        GR
+ Chateauneuf du Pape             2006   4 r    0.00   Rho  Clos St. Jean  GR
+ Chateauneuf du Pape             1978   1 r  100.00   Rho  Beaucastel     GR
+ Chateauneuf du Pape             1989   1 r    0.00   Rho  Beaucastel     GR
+ Chateauneuf du Pape             2003   1 r   80.00   Rho  Beaucastel     GR
+ Chateauneuf du Pape             2003   4 r   50.00   Rho  Font de MichellGR
+ Chateauneuf du Pape Etien.Gonnet2004   2 r   80.00   Rho  Beaucastel     GR
+ Chateauneuf du Pape             2004   2 r   40.00   Rho  Bosquet des PapGR
+ Chateauneuf du Pape             2004   3 r   23.00   Rho  Brunel         GR
+ Chateauneuf du Pape             2004   1 r    0.00   Rho  Cuvee de MonAieGR
+ Chateauneuf du Pape             2001   1 r   35.00   Rho  Jean Boyer     GR
+ Chateauneuf du Pape             1999   4 r   55.00   Rho  Guigal         GR
+ Chateauneuf du Pape             2001   3 r   55.00   Rho  Pegau          GR
+ Chateauneuf du Pape             2004   1 r   65.00   Rho  Pegau          GR
+ Chateauneuf du Pape             2001   4 r   55.00   Rho  Clos des Pape  GR
+ Chateauneuf du Pape             1998   1 r   55.00   Rho  Clos des Pape  GR
+ Chateauneuf du Pape             2003   3 r   40.00   Rho  Dom. Marcou    GR
+ Chateauneuf du Pape             2000   1 r   45.00   Rho  Dom. Marcou    GR
+ Chateauneuf du Pape             2000   1 r   38.00   Bur  Charbonniere   GR
+ Chateauneuf du Pape             2000   2 r   35.00   Bur  Charbonniere   GR
+ Chateauneuf du Pape             2000   1 r   51.00   Bur  Mourre Tendre  Gr
+ Chateauneuf du Pape             2004   1 r   35.00   Rho  Usseglio       Gr
+ Chateauneuf du Pape  Boisrenard 2001   1 r   55.00   Rho  Coulon         GR
+ Chateauneuf du Pape  Boisrenard 2009   2 r   55.00   Rho  Coulon         GR
+ Chateauneuf du Pape  Caillou    2001   1 r   55.00   Rho                 GR
+ Chateauneuf du Pape  Ch. de Be  1993   1 r    0.00   Rho  Beaucastel     GR
+ Chateauneuf du Pape  Ch. de la  1990   1 r    0.00   Rho                 GR
+ Chateauneuf du Pape  Clos Olivet2001   2 r   22.00   Rho  Clos Mont Oli  GR
+ Chateauneuf du Pape  Clos Olivet2003   1 r   22.00   Rho  Clos Mont Oli  GR
+ Chateauneuf du Pape  Clos des P 1999   1 r   46.00   Rho                 GR
+ Chateauneuf du Pape  Clos des P 2012   2 r   70.00   Rho                 GR
+ Chateauneuf du Pape  ClosMont-Ol2003   1 r   47.00   Rho  Clos Mont Oli  GR
+ Chateauneuf du Pape  Cote Ronde 2001   2 r   40.00   Rho  Paul Autard    GR
+ Chateauneuf du Pape  Cuvee Quet 2001   2 r   40.00   Rho  Boislauzon     GR
+ Chateauneuf du Pape  CuveeFelix 1998   2 r  120.00   Rho  Bois de Bours  GR
+ Chateauneuf du Pape  Dom. de l  1995   1 r    0.00   Rho  Sabon          GR
+ Chateauneuf du Pape  Domaine Mo 1989   1 r   36.00   Rho  Paul Jeune     GR
+ Chateauneuf du Pape  Ferrand    2000   1 r   48.00   Rho  Ferrand        GR
+ Chateauneuf du Pape  Fiancee    2004   1 r   44.00   Rho  Barroche       Gr
+ Chateauneuf du Pape  Galey des  1998   1 r   27.00   Rho  Mayard         GR
+ Chateauneuf du Pape  Guigal     2000   1 r   25.00   Rho                 GR
+ Chateauneuf du Pape  Barroche   2005   3 r   40.00   Rho  Barroche       GR
+ Chateauneuf du Pape  C.du Vatica2005   3 r   40.00   Rho  Cuvee du VaticaGR
+ Chateauneuf du Pape  Janasse    2005   2 r   40.00   Rho  Janasse        GR
+ Chateauneuf du Pape  La Crau    2005   1 r   40.00   Rho  Vieux TelegraphGR
+ Chateauneuf du Pape  Pegau      2005   3 r   60.00   Rho  Pegau          GR
+ Chateauneuf du Pape  Cuvee Spec 2005   3 r   40.00   Rho  Tardieu LaurentGR
+ Chateauneuf du Pape  Cuvee Spec 2003   3 r   40.00   Rho  Tardieu LaurentGR
+ Chateauneuf du Pape  Boisrenard 2005   3 r   40.00   Rho  Boisrenard     GR
+ Chateauneuf du Pape  Charvin    2005   3 r   40.00   Rho  Charvin        GR
+ Chateauneuf du Pape  Jean Boyer 2000   2 r   35.00   Rho  Jean Boyer     GR
+ Chateauneuf du Pape  Juli.Avril 1998   1 r    0.00   Rho  J. Avril       GR
+ Chateauneuf du Pape  La Bernard 1989   2 r   35.00   Rho  Chapoutier     GR
+ Chateauneuf du Pape  La Bernard 1997   1 r   34.00   Rho  Chapoutier     GR
+ Chateauneuf du Pape  La Bernard 2000   1 r   27.00   Rho  Chapoutier     GR
+ Chateauneuf du Pape  La Nerthe  1999   1 r   30.54   Rho  Ch. La Nerthe  GR
+ Chateauneuf du Pape  Mon Aieul  2000   2 r   75.00   Rho  Usseglio       Gr
+ Chateauneuf du Pape  Mon Aieul  2007   2 r   85.00   Rho  Usseglio       Gr
+ Chateauneuf du Pape             2008   3 r   85.00   Rho  Usseglio       Gr
+ Chateauneuf du Pape  Monpertuis 2000   1 r   22.00   Rho                 GR
+ Chateauneuf du Pape  Prestige   2000   2 r   30.00   Rho  Cabrieres      GR
+ Chateauneuf du Pape  Vieux Tel  2000   1 r   46.00   Rho                 GR
+ Chateauneuf du Pape  Vieux Tel  2004   1 r   43.00   Rho  Vieux Teleg    GR
+ Chateauneuf du Pape  Vieux Tel  1998   1 r   38.00   Rho  Vieux Teleg    GR
+ Chateauneuf du Pape Brusquieres 2001   4 r   55.00   Rho  Maret          GR
+ Chateauneuf du Pape Cuv.Vatican 2001   4 r   55.00   Rho  Rserve sixtin  GR
+ Chateauneuf du Pape Pegau       2004   2 r   70.00   Rho                 GR
+ Chateauneuf du Pape Pegau       2003   1 r   70.00   Rho                 GR
+ Chateauneuf du Pape Pegau       2000   1 r   70.00   Rho                 GR
+ Chateauneuf du Pape Petits Pieds2004   3 r   55.00   Rho  Dom.d.Relagnes GR
+ Chateauneuf du Pape             2005   2 r   40.00   Rho  Pere Caboche   GR
+ Chateauneuf du Pape             2005   2 r   40.00   Rho  Janasse        GR
+ Chateauneuf du Pape             2007   2 r   40.00   Rho  Charbonniere   GR
+ Chateauneuf du Pape             2007   2 r   40.00   Rho  Boislauzon     GR
+ Chateauneuf du Pape  Deus ex Mac2005   1 r   40.00   Rho  Clos Saint JeanGR
+ Chateauneuf du Pape Prestige    2005   1 r   40.00   Rho  Roger Sabon    GR
+ Chateauneuf du Pape Cuvee de Pap2005   1 r   40.00   Rho  Clos Mont Oliv GR
+ Chateauneuf du Pape Le Vieux Don2005   1 r   40.00   Rho  jon            GR
+ Chehalem                        2004   1 r   30.00   Ame  Oregon         PN
+ Chehalem                        2002   1 r   45.00   Ame  Oregon         PN
+ Chehalem                        2000   1 r   45.00   Ame  Oregon         PN
+ Chevalier Montrachet            2000   1 w  150.00   Bur  Bouchard       CH
+ Chorey-Les-Beaune               2002   2 r   32.00   Bur  Edmond Cornu   PN
+ Chorey-Les-Beaune               2005   1 r   23.00   Bur  Edmond Cornu   PN
+ Clos St. Denis                  1985   1 r    0.00   Bur  Guy de Castag  PN
+ Clos Apalta                     2007   2 r   60.00   Chi  Lapostolle     ME
+ Clos Mireille                   2014   2 ro  45.00   Pro  Dom. Ott
+ Clos Vougeot                    1995   1 r   57.80   Bur  Jadot          PN
+ Clos Vougeot                    2002   1 r   95.80   Bur  Rion           PN
+ Clos Vougeot Gran Cru           2003   1 r   95.80   Bur  Jadot          PN
+ Clos Vougeot Gran Cru           1999   1 r   95.80   Bur  J-J Confuron   PN
+ Clos Vougeot Gran Cru           1990   1 r   80.80   Bur  Gros Freres    PN
+ Clos de Vougeot                 1985   3 r    0.00   Bur  Thomas-Moilla  PN
+ Clos d'englora AV 14            2005   2 r           Spa  Cellars Baronia
+ Clos de l'Obac                  2003   1 r           Spa  Priorat
+ Clos de l'Oratoire              1997   1 r   34.00   Bor                 CS
+ Clos de la Mousse               1995   1 r   29.00   Rho  Bouchard
+ Clos de la Roche                1995   1 r   80.00   Bur  Laurent        PN
+ Clos de la Roche                1996   1 r  100.00   Bur  Ponsot         PN
+ Clos de la Roche                1996   1 r  159.00   Bur  Jadot          PN
+ Clos de la Roche                2002   1 r  115.00   Bur  Lignier        PN
+ Clos de la Roche                2002   1 r  200.00   Bur  Ponsot         PN
+ Clos de la Roche                2003   1 r   76.00   Bur  Amioter        PN
+ Clos de la Roche                2005   2 r  100.00   Bur  Amiot          PN
+ Clos de la Roche                2006   1 r   80.00   Bur  Amiot          PN
+ Clos de la Roche                2004   1 r  110.00   Bur  A. Rousseau    PN
+ Clos de la Roche                2002   1 r  110.00   Bur  A. Rousseau    PN
+ Clos de la Roche                2002   1 r   90.00   Bur  Potel          PN
+ Clos de la Roche                2002   2 r   80.00   Bur  Arlaud         PN
+ Clos de la Roche                1990   1 r    0.00   Bur  Dujac          PN
+ Clos de la Roche                1993   1 r    0.00   Bur                 PN
+ Clos de la Roche                1997   1 r  140.00   Bur  Lignier        PN
+ Clos de Tart                    1996   1 r  140.00   Bur  Mommessin      PN
+ Clos des Jacobins               1997   1 r   37.00   Bor                 CS
+ Clos des Lambrays               2002   1 r  100.00   Bur  Lambray        PN
+ Clos des Lambrays               2004   2 r   70.00   Bur  Lambray        PN
+ Clos des Lambrays               2005   3 r  190.00   Bur  Lambray        PN
+ Clos des Lambrays               2006   2 r  125.00   Bur  Lambray        PN
+ Clos des Mouche Beaune 1er Cru  2005   3 r   49.00   Bur                 PN
+ Clos des Mouches                1997   1 r   40.00   Bur  Drouhin        PN
+ Clos des Mouches                2005   2 r   75.00   Bur  Drouhin        PN
+ Clos des Ursules                2003   1 r   40.00   Bur  Jadot          PN
+ Clos du Marquis                 1995   2 r    0.00   Bor                 CS
+ Clos du Roi 1er Cru             1978   4 r    0.00   Bur  Henri Boillot  PN
+ Clos St. Denis                  2005   2 r   85.00   Bur  Amiot          PN
+ Cockburn's                      1963   1 r    0.00   Por
+ Condrieu                        2006   1 w  110.00   Rho  Vernay         VI
+ Condrieu                        2012   1 w   40.00   Rho  Guigal         VI
+ Condrieu La Doriane             2011   3 w   45.00   Rho  Guigal         VI
+ Condrieu La Doriane             2012   2 w   70.00   Rho  Guigal         VI
+ Condrieu La Doriane             1997   4 w   45.00   Rho  Guigal         VI
+ Condrieu La Doriane             1995   1 w   45.00   Rho  Guigal         VI
+ Condrieu La Doriane             1996   1 w   45.00   Rho  Guigal         VI
+ Condrieu La Doriane             1998   2 w   45.00   Rho  Guigal         VI
+ Condrieu La Doriane             1999   2 w   45.00   Rho  Guigal         VI
+ Condrieu                        2010   1 w   90.00   Rho  Guigal         VI
+ Conundrum                       1996   1 w    0.00   Ame  Caymus
+ Cornas Les Vielles Vignes       2010   4 r   60.00   Rho  Alain Voge
+ Corton Bressandes               2002   1 r   63.00   Bur  Chandon Briai  PN
+ Cornas Les Chailles             2011   2 r           Rho  Sarl Alain Voge
+ Cornas Vielles Vignes           2011   2 r           Rho  Sarl Alain Voge
+ Corton Bressandes               2005   1 r   63.00   Bur  Chandon Briai  PN
+ Corton Bressandes 1er cru       2005   1 r   59.00   Bur  Henri Germain  PN
+ Corton Bressandes Grand Cru     2005   1 r   85.00   Bur  Chandon Briai  PN
+ Corton Charlemagne              2001   2 w   45.00   Bur  Girardin       CH
+ Corton Charlemagne              2001   2 w   45.00   Bur  Girardin       CH
+ Corton Charlemagne              1999   1 w   99.00   Bur  Jadot          CH
+ Corton Charlemagne              2000   1 w  100.00   Bur  Martray        CH
+ Corton Charlemagne              2005   1 w  100.00   Bur  Martray        CH
+ Corton Charlemagne              2011   1 w   70.00   Bur  Latour         CH
+ Corton Clos du Roi              1995   1 r    0.00   Bur                 PN
+ Corton Clos du Rois             1997   1 r   60.00   Bur  Girardin       PN
+ Corton Clos du Rois Gran Cru    1990   2 r   60.00   Bur  Girardin       PN
+ Corton Clos du Rois             2002   1 r   60.00   Bur  Girardin       PN
+ Corton Clos du Rois             2005   1 r   60.00   Bur  Girardin       PN
+ Corton Clos du Rois             2002   1 r   60.00   Bur  Florent Merod  PN
+ Corton Clos du Rois             2002   1 r   80.00   Bur  Pousse d'Or    PN
+ Corton Grand Cru                1995   1 r    0.00   Bur  Tollot-Beaut   PN
+ Corton Les Marechaudes          2005   2 r   72.00   Bur  Briailles      PN
+ Corton Les Marechaudes Gr.Cru   2005   1 r   70.00   Bur  Prince Merode  PN
+ Cos D'Estournel                 1995   2 r    0.00   Bor                 CS
+ Cos D'Estournel                 1996   1 r    0.00   Bor                 CS
+ Cos D'Estournel                 2009   1 r    0.00   Bor                 CS
+ Costers del Siurana Miserere    2006   2 r   30.00   Spa  Priorat
+ Cote-Rotie                      1978   2 r    0.00   Rho  Guigal         SI
+ Cote-Rotie                      1983   1 r    0.00   Rho  Guigal         SI
+ Cote-Rotie                      1997   1 r   60.00   Rho  Guigal         SI
+ Cote-Rotie                      2001   1 r   85.00   Rho  Guigal         SI
+ Cote-Rotie La Landonne          1980   1 r    0.00   Rho  Guigal         SI
+ Cote-Rotie La Mouline           1978   1 r    0.00   Rho  Guigal         SI
+ Cote-Rotie La Turque            1985   2 r    0.00   Rho  Guigal         SI
+ Coteaux du Layon Beaulieu       1995   1 w    0.00   Lay  Ch. Soucherie
+ Coteaux du Layon                1990   1 w    0.00   Lay  Baumard
+ Coteaux du Layon Selection de   1996   2 w    0.00   Loi  Delesvaux
+ Coume d Mas Quintessence Banyul 2004   2 r   20.00
+ Craggy Range                    2006   1 r   42.00   Nze  Calvert        PN
+ Criots-Batard Montrachet        2005   2 w  100.00   Bur  Latour         CH
+ Criots-Batard Montrachet        1996   1 w  100.00   Bur  Jadot          CH
+ Crozes Hermitage                2012   3 r   50.00   Rho  Jaboulet
+ Da Silva House Reserve          1934   1 r    0.00   Por
+ De Loach Chardonnay             1999   1 w    0.00   Ame  De Loach       CH
+ Dofi                            1995   1 r    0.00   Spa  Priorat
+ Domaine de Chevalier            1998   2 r   50.00   Bor                 CS
+ Domaine de Chevalier            2009   1 r   50.00   Bor                 CS
+ Domaine Drouhin Oregon PN       2003   1 r   55.00   Ame  Oregon         PN
+ Domaine La Tour Vieille Collio  1998   1 r    0.00   Lan                 CS
+ Domaine Serene Yamhill Cuvee    2005   2 r   37.50   Ame  Oregon         PN
+ Dominio de Atauta               2009   1 r   35.00   Spa  Ribera del DuerTE
+ Dominus                         2009   1 r  160.00   Ame  Napa           CS
+ Dominus                         1988   1 r  160.00   Ame  Napa           CS
+ Dominus                         1992   1 r   90.00   Ame  Napa           CS
+ Dominus                         1997   1 r   90.00   Ame  Napa           CS
+ Dominus                         2011   1 r  144.00   Ame  Napa           CS
+ Dominus                         2012   1 r  200.00   Ame  Napa           CS
+ Dominus Proprietary red         2002   1 r  109.00   Ame  Napa           CS
+ Don Melchor                     1995   1 r    0.00   Chi  Concha y Toro
+ Dow's                           1977   1 r    0.00   Por
+ Dow's                           1983   1 r    0.00   Por
+ Dow's                           1985   1 r    0.00   Por
+ Dutton Goldfield Chardonnay     1999   1 w    0.00   Ame                 CH
+ Echezeaux                       1995   2 r    0.00   Bur  Laurent        PN
+ Echezeaux                       1995   2 r    0.00   Bur  Coron Pere &   PN
+ Echezeaux                       1995   1 r    0.00   Bur  Forey Pere et  PN
+ Echezeaux                       1996   1 r   60.00   Bur  Raphet         PN
+ Echezeaux                       1989   1 r   68.00   Bur  Faivelet       PN
+ Echezeaux                       2001   1 r   90.00   Bur  Faivelet       PN
+ Echezeaux                       1999   1 r  160.00   Bur  Jayer-Gilles   PN
+ Echezeaux                       2002   1 r   83.00   Bur  Rion           PN
+ Echezeaux                       2002   2 r  115.00   Bur  Boisset        PN
+ Echezeaux                       2002   1 r   81.00   Bur  MongeardMugne  PN
+ Echezeaux                       2005   2 r  109.00   Bur  Ambroise       PN
+ Echezeaux                       2004   1 r    0.00   Bur  Rouget         PN
+ Echezeaux                       2006   2 r  105.00   Bur  Nicolas Potel  PN
+ Echezeaux                       1999   1 r  120.00   Bur  Nicolas Potel  PN
+ Edwards & Chaffey               1996   1 r    0.00   Aus                 SI
+ Eichinger, Burgit               2009   9 w   18.75   Aus                 RI
+ Eitelsbacher Karthauserhofberg  1989   1 w    0.00   Ger                 RI
+ Eitelsbacher Marienholz Beeren  1976   1 w    0.00   Ger                 RI
+ Ermitage Le Meal                1998   2 r   29.00   Rho  Ferraton Pere
+ Ermitage Blanc  de l'Oree       1999   1 w  110.00   Rho  Chapoutier
+ Ermitage Blanc de l'Oree        2013   1 w  189.00   Rho  Chapoutier
+ Esterline                       2003   1 r   42.00   Ame  Anderson Val   PN
+ Eyrie Vineyards                 1985   1 r    0.00   Ame  Eyrie          PN
+ Eyrie Vineyards                 1995   1 r    0.00   Ame  Eyrie          PN
+ Fess Parker Pinot Noir          2000   1 r    0.00   Ame                 PN
+ Field Stone                     1998   1 r    0.00   Ame
+ Fife Zinfandel                  2001   1 r   13.00   Ame  Fife           ZI
+ Flor de Pingus                  2007   1 r   75.00   Spa  Ribera del Duero
+ Fontalloro                      2000   1 r   26.00   Ita  Fattoria Fels
+ Frank Phelan                    1997   2 r    0.00   Bor                 CS
+ Freemark Akiko's cuvee          2005   1 r   62.00   Ame  Sonoma         PN
+ Freemark Keefer branch          2005   1 r   70.00   Ame  Russian River  PN
+ Freemark                        2005   1 r   45.00   Ame  Russian River  PN
+ Fritz Haag                      2011   4 w           Ger  Braneberger KabRI
+ Galatrona Petrolo               2011   2 r           Ita  Toscana
+ Gary Farrell Zinfandel          1998   1 r   31.00   Ame  Gary Farrell   ZI
+ Georges de Latour Private Rese  1992   1 r    0.00   Ame  Beaulieu       CS
+ Georges de Latour Special Rese  1971   2 r    0.00   Ame                 CS
+ Georges de Latour Special Rese  1980   1 r    0.00   Ame                 CS
+ Domaine les Goubert Cuve Florenc1995   1 r   60.00   Rho  Gigondas
+ Domaine les Goubert Cuve Florenc1998   1 r   60.00   Rho  Gigondas
+ Domaine les Goubert Cuve Florenc1999   1 r   60.00   Rho  Gigondas
+ Domaine les Goubert Cuve Florenc2003   1 r   60.00   Rho  Gigondas
+ Domaine Raspail-Ay              2010   2 r   30.00   Rho  Gigondas
+ Gigondas                        1985   1 r    0.00   Rho  Cayron         SI
+ Gigondas                        2011   1     40.00   Rho  Cayron         SI
+ Gigondas                        1995   1 r    0.00   Rho  Dom.Santa Duc  SI
+ Gigondas                        2007   3 r   37.00   Rho  Dom. Bosquet   GR
+ Gigondas                        2007   2 r   25.00   Rho  Dom. Cayron    GR
+ Gigondas                        2007   3 r   50.00   Rho  Dom. Pesquier  RH
+ Gigondas Prestige des Hautes    2007   3 r   25.00   Rho  Dom. Santa Duc GR
+ Gigondas LaLouisanne            2004   4 r   25.00   Rho  Saint Damien   GR
+ Gigondas LaLouisanne            2009   3 r   50.00   Rho  Saint Damien   GR
+ Givry Clos Saint Pierre 1 cru   2005   1 r   25.00   Bur  Thenard        PN
+ Givry Cellier aux Moines1 cru   2005   1 r   25.00   Bur  Thenard        PN
+ Goberlsburg Riesling Tradition  2009   1 w   40.00   Aus  Gobelsburg     RI
+ Goth                            2012   2 r   50.00   Ame  Napa Oakville  CS
+ Graach Josephshofer Riesling A  1983   2 w    0.00   Ger  Kesselstatt    RI
+ Graacher Domprobst Riesling Au  1971   1 w    0.00   Ger  Meyerhof       RI
+ Graacher Himmelreich Beerenaus  1976   1 w    0.00   Ger                 RI
+ Graacher Himmelreich Auslese    2008   4 w   40.00   Ger  Joh. Jos.Prum  RI
+ Grands Echezeaux                1983   1 r    0.00   Bur  DRC            PN
+ Grands Echezeaux                2002   1 r  125.00   Bur  Engel          PN
+ Grands Echezeaux                2001   2 r  120.00   Bur  Desauney-BisseyPN
+ Grands Echezeaux                1990   2 r  110.00   Bur  Gros Freres    PN
+ Grands Echezeaux                1976   1 r  190.00   Bur  Gros Freres    PN
+ Grands Echezeaux                1993   1 r  140.00   Bur  Rene Engel     PN
+ Grands Echezeaux                1996   2 r  110.00   Bur  Laurent        PN
+ Gruner Veltliner Smaragd        2009   2 w   60.00   Ost  Loibner Klostersatz
+ Gruner Veltliner Federspiel     2009   2 w   60.00   Ost  Loibner Klostersatz
+ Gruner Veltliner Tradition      2008   2 w   60.00   Ost  Gobelsburg
+ Gruner Veltliner Grubition      2010   3 w   50.00   Ost  Gobelsburg
+ Gruner Veltliner Nikolaihof     2010   3 w   27.00   Ost  Wachau
+ Gruner Veltliner Tal 1          2010   3 w   24.00   Ost  Hiedler,Kamptal
+ Gruner Veltliner Tradition      2010   3 w   60.00   Ost  Nigl
+ Haardter Burgergarten Spatlese  1999   1 w    0.00   Ger  Weingut Weegm  RI
+ Hamilton Russell                2012   3 w
+ Hardys McLaren Vale Padthaway   1995   1 r    0.00   Aus  Hardy          SI
+ Hattelheimer Wisselbrunnen Rie  1976   1 w    0.00   Ger  Karl Joh Moli  RI
+ Heimbourg                       1994   2 w    0.00   Fra  Zind Humbrech
+ Hengst Winzenheim Gewurztramin  1996   1 w    0.00   Als  Zind Humbrech  GE
+ Hermitage                       2001   1 w   35.00   Rho  Guigal
+ Hermitage                       1990   1 r    0.00   Rho  Jaboulet       SI
+ Hermitage                       2006   4 w   26.00   Rho  Jaboulet       SI
+ Hermitage Chante-Alouette       2004   2 w   60.00   Rho  Chapoutier
+ Hermitage La Chappelle          1983   1 r    0.00   Rho  Jaboulet       SI
+ Hermitage La Chappelle          1989   1 r  220.00   Rho  Jaboulet       SI
+ Hermitage La Chappelle          1995   1 r   80.00   Rho  Jaboulet       SI
+ Hermitage La Chappelle          1996   2 r    0.00   Rho  Jaboulet       SI
+ Hermitage La Chappelle          1997   2 r  106.00   Rho  Jaboulet       SI
+ Hermitage La Chappelle          1999   1 r  106.00   Rho  Jaboulet       SI
+ Hermitage La Chappelle          2003   1 r  119.00   Rho  Jaboulet       SI
+ Hermitage                       2001   1 w  119.00   Rho  Chave          SI
+ Hermitage                       2000   1 w  129.00   Rho  Chave          SI
+ Hermitage                       1996   2 w  100.00   Rho  Chave          SI
+ Hermitage la Sizeranne          1997   1 r   50.00   Rho  Chapoutier
+ Hirtzberger Smaragd Riesling    2007   5 w   40.00   Aus  Hirtzberger    RI
+ H.M.Hoffer Gruner Veltliner     2009   2 w           Aus  Hoffer         GV
+ Hospices de Beaune              1983   1 r   62.50   Bur  Albert Bichot  PN
+ Howell Mountain                 1998   1 r   40.46   Ame                 ZI
+ Insignia Phelps                 2009   2 r           Ame  Napa           CS
+ Isole e Olena Cepparello        2000   2 r   35.00   Ita
+ J.B.Becker Eltviller Sonnenber  1983   2 w   32.00   Ger  Becker         RI
+ Joseph Phelps                   1999   6 w   26.00   Ame                 CH
+ Kanonkop                        1989   1 r    0.00   Sou                 CS
+ Ken Wright Cellars              2003   1 r   49.00   Ame  Oregon         PN
+ Kiedricher Gruferberg Riesling  1976   2 w    0.00   Ger  Weil           RI
+ Kinheimer Hubertuslay Riesling  1976   2 w    0.00   Ger  Ehses-Hansen   RI
+ Kiralyudvar Tokaji Sec Furmint  2007   2 w   25.00   Hun                 FU
+ Kistler Chardonnay (Durell )    2006   1 w   75.00   Ame  Sonoma         CH
+ Kistler Chardonnay (Hudson )    2006   1 w   75.00   Ame  Carneros       CH
+ Kistler Chardonnay (Hudson )    2007   1 w   75.00   Ame  Carneros       CH
+ Kistler Chardonnay (McRea  )    2007   1 w   75.00   Ame  Sonoma         CH
+ Kistler Chardonnay (McRea  )    2008   1 w   75.00   Ame  Sonoma         CH
+ Kistler Chardonnay (Sonoma )    2010   1 w   75.00   Ame  Sonoma         CH
+ Kistler Chardonnay              2011   7 w   75.00   Ame  Sonoma         CH
+ Kistler Chardonnay              2012   5 w   75.00   Ame  Sonoma         CH
+ Kistler (Kistler)               2007   1 r   80.00   Ame  Sonoma         PN
+ Kistler (Kistler)               2010   1 r   85.00   Ame  Sonoma         PN
+ Kistler (Kistler)               2011   2 r   80.00   Ame  Sonoma         PN
+ Kistler (Kistler)               2012   2 r   80.00   Ame  Sonoma         PN
+ Kistler Chardonnay              2013   4 w   80.00   Ame  Sonoma         PN
+ Klein Constantia                2008   2 w   80.00   Sou  Constantia SA
+ Kracher                         2002   1 w           Aus  Burgenland
+ Kracher Trockenbeerenauslese    2005   2 w   80.00   Aus  Burgenland
+ Kunde Chardonnay                2003   3 w   11.00   Ame  Kunde, Sonoma  CH
+ Landmark Kastania Pinot Noir    2002   3 r   37.00   Ame                 PN
+ Laurel Glen                     2004   2 r   45.00   Ame  Sonoma         CS
+ Le Bonheur                      1995   3 r   15.00   Sou                 CS
+ Le Cadeau                       2002   2 r   45.00   Ame  Oregon         PN
+ Les Aphillantes                 2001   3 r   12.00   Rho  des Galets
+ Les Granits, St. Joseph         2012   r w           Rho  Chapoutier
+ Les Pieds de Samson             2001   4 w    0.00   Col  Vernay
+ Lingenfelder Riesling Halbtroc  1990   1 w    0.00   Ger                 RI
+ Lodi Zinfandel                  1999   1 r    0.00   Ame                 ZI
+ Lodi Zinfandel                  2000   1 r    0.00   Ame                 ZI
+ Lodi Zinfandel                  2000   1 r    0.00   Ame                 ZI
+ Lopez Tondonia                  2000   1 r   40.00   Spa  Rioja          TE
+ Lost Canyon                     2004   1 r   41.00   Ame  Oregon         PN
+ Lost Highway                    2006   2 r   65.00   Ame  Oregon         PN
+ Macrostie                       2008   4 w   24.00   Ame  Sonoma         CH
+ Magia Brunello Riserva          1997   2 r   40.00   Ita
+ Malvasia delle Lipari           1984   2 w    0.00   Ita  Carlo Hauner
+ Marcalini Barolo                2010   2 r   50.00   Ita  Barolo Brunate
+ Markham Petite Sirah            1997   1 r    0.00   Ame                 PS
+ Marques de Caceres              1994   1 r    0.00   Spa  Rioja
+ Marques de Murrieta Ygay        1991   1 r    0.00   Spa  Rioja          TE
+ Martinelli Pinot Noir           2000   1 r   80.00   Ame  Martinelli     PN
+ Martinelli Zinfandel            2000   1 r  100.00   Ame  Martinelli     ZI
+ Martinelli Zinfandel            1998   1 r  120.00   Ame  Martinelli     ZI
+ Mas Amiel Maury                 2000   2 r   21.00   Lan
+ Maximin Grunhauser Herrenberg   1964   2 w    0.00   Ger  Schubert Cell  RI
+ Macnab Ridge                    2009   3 r   25.00   Ame                 CS
+ Meerlust Rubicon                2001   1 r   38.50   Sou                 CS
+ Merrivale Starmont              2005   1 w   14.00   Ame  Napa           CH
+ Meursault                       2000   2 w   25.00   Bur  Lafouge        CH
+ Meursault                       2008   3 w   54.00   Bur  Henri German   CH
+ Meursault-Charmes               1985   1 w    0.00   Bur  Michelot-Buis  CH
+ Meursault-Charmes               2000   1 w   35.00   Bur  Bouchard       CH
+ Meursault-Genevrieres 1er Cru   2000   1 w   45.00   Bur  Latour-Giraud  CH
+ Meursault-Genevrieres 1er Cru   2000   3 w   50.00   Bur  Bouchard       CH
+ Meursault-Les Clous             2001   1 w   35.00   Bur  Bouchard       CH
+ Meursault Les Chevaliers        2005   3 w   62.50   Bur  Monnot         CH
+ Meursault Charmes               2008   1 3   95.00   Bur  Boillot        CH
+ Mirassou                        1993   1 r   15.00   Ame                 ZI
+ Mondavi Cabernet Sauvignon      2002   2 r   35.00   Ame  Oakville       CS
+ Montagny 1er cru                2002   3 w   13.00   Bur  Bouchard       CH
+ Montebruno                      2004   1     41.00   Ame  Oregon         PN
+ Montecillo Gran Reserva         1994   1 r   22.00   Spa  Montecillo     TE
+ Montesanto Riserva              1978   1 r    0.00   Ita  Poggio
+ Morey St. Denis                 1995   1 r   32.00   Bur  Charlepin-Par  PN
+ Morey St. Denis                 1995   1 r   33.00   Bur  Frouhin        PN
+ Morey St. Denis Clos Bussiere   1999   1 r   90.00   Bur  Roumier        PN
+ Morey St. Denis                 1985   1 r    0.00   Bur  Guy de Castag  PN
+ Morey St. Denis                 2005   1 r   50.00   Bur  Amiot          PN
+ Morey St. Denis                 2005   1 r   70.00   Bur  Lambray        PN
+ Morey St. Denis                 2009   2 r    0.00   Bur  Pomsot         PN
+ Mt. Difficulty                  2005   2 r   35.00   NZ   Otago          PN
+ Noemia Bodega Malbec            2009   2 r   90.00   Arg  Argentina
+ Nosotros del Plata Malbec       2008   2 r   70.00   Arg  Argentina      MA
+ Nuits Saint Georges             1996   1 r   40.00   Bur  Domaine d'Arl  PN
+ Nuits Saint Georges Clos de l'  1995   1 r   35.00   Bur  Arlot          PN
+ Nuits Saint Georges Les Hauts   1995   2 r    0.00   Bur  Chevigny       PN
+ Nuits Saint Georges Les Trois B.2002   2 r   15.00   Bur  Pochet         PN
+ Nuits St. Georges 1er Cru Les   1995   1 r   40.00   Bur                 PN
+ Nuits-Saint-Georges             1990   1 r   40.00   Bur  Bouchard       PN
+ Nuits-St-Georges                1976   1 r    0.00   Bur  Machard de Gr  PN
+ Nuits-St-Georges Les Pruliers   1995   2 r   40.00   Bur  Henri Gouges   PN
+ Nuits-St-Georges Les Vaucrains  2002   1 r   87.00   Bur  Chevillon      PN
+ Nuits-St-Georges Les Porrets    1996   1 r   47.00   Bur  Jadot          PN
+ Nuits-St-Georges Aux Thorey     1995   2 r   75.00   Bur  Feuillet       PN
+ Nuits-St-Georges Clos des Argil 2005   2 r   75.00   Bur  Rion           PN
+ Occidental (Kistler)            2013   2 r  100.00   Ame  Kistler        PN
+ Occidental Bodega Headlands     2012   2 r   80.00   Ame  Kistler        PN
+ Ockfener Bockstein Riesling Au  1975   1 w    0.00   Ger  Kirchen        RI
+ Ockfener Bockstein Riesling Be  1976   1 w    0.00   Ger  Dr. Fischer    RI
+ Opus One                        2003   2 r  125.00   Ame  Napa           CS
+ Oreno                           2012   4 r           Ita  Toscana
+ O'Shaughnessy                   2012   2 r           Ame  Mount Veeder   CS
+ Panther Creek Shea PN           2003   2 r   35.00   Ame  Oregon         PN
+ Paul Cluver                     1998   2 r   19.00   Sou                 PN
+ Penfolds Koonunga Hill          2000   1 r   13.00   Aus  Penfolds       SI
+ Penfolds Magill Estate          1995   2 r   59.00   Aus                 SI
+ Penfolds Magill Estate Shiraz   1997   1 r    0.00   Aus                 SI
+ Pernand Vergelesses 1er Cru     1995   1 r   40.00   Bur  Chandon de Br  PN
+ Pesano                          2003   3 r   12.00   Ita                 ME
+ Peter Michael La Carriere       2006   3 w   80.00   Ame  Peter Michael  CH
+ Pettental Riesling Spatlese     1997   6 w   14.00   Rhe  Herrnsheim     RI
+ Phelps Insignia                 2011   2 r  160.00   Ame  Napa           CS
+ Pierre Sparr Gewurztraminer     2001   2 w   10.00   Als  Sparr          GE
+ Piesporter Gunterslay Riesling  1983   1 w    0.00   Ger  Franz Reh      RI
+ Poderi Luigi Einaudi            2009   2 r   35.00   Ita  Barolo
+ Pommard                         2002   1 r   44.00   Bur  Jadot          PN
+ Pommard                         2005   1 r   50.00   Bur  Voillot        PN
+ Pommard  Clos des Epenaux       1996   1 r   45.00   Bur  Armand         PN
+ Pommard 1er Cru "Les Bertins"   1976   1 r   40.00   Bur  Machard de Gr  PN
+ Pommard 1er Cru "Les Jarollieres2002   1 r   66.00   Bur  Pousse d'OrGr  PN
+ Ponzi                           2004   1 r   44.00   Ame  Oregon         PN
+ Porter Creek                    1999   2 r   42.00   Ame  Porter Creek
+ Prado Enea Muga Gran Reserva    2004   2 r   40.00   Spa  Rioja
+ Provenance Pwave                2011   2 r   40.00   Ame  Napa           CS
+ Ratzenberger Bacharacher Cab.   2008   5 w   19.00   Ger  Riesling       RI
+ Ravenswood Old Hill             1996   1 r   65.00   Ame                 ZI
+ Ravenswood Pickberry            1998   2 r   42.75   Ame                 ZI
+ Ravenswood Teldeschi            1999   1 r   43.00   Ame                 ZI
+ Reichsgraf Kesselstatt Spatlese 1999   3 w   17.00   Ger                 RI
+ Remirez de Ganuza               2001   1 r   55.00   Spa  Rioja          TE
+ Remirez de Ganuza               2004   1 r   55.00   Spa  Rioja          TE
+ Remirez de Ganuza               2008   1 r   90.00   Spa  Rioja          TE
+ Ridge Lytton Springs            1999   1 r   40.50   Ame                 ZI
+ Riesling Trockenbeeren Auslese  2005   1 w   80.00   Ger  Trittenheimer  RI
+ Rioja Alta Gran Reserva 904     1998   1 r   40.00   Spa  Rioja          TE
+ Rivola Abadia Reuerta           1996   2 r    0.00   Spa  Abadia Retuer  TE
+ Robert Mondavi                  1994   2 r    0.00   Ame                 PN
+ Robert Mondavi                  1995   2 r    0.00   Ame                 PN
+ Rocca delle Macie               2009   2 r   30.00   Ita  Toscane
+ Rockland                        1996   1 r   28.00   Ame                 PS
+ Romanee St.-Vivant              1985   1 r   62.50   Bur  DRC            PN
+ Romanee St.-Vivant              2002   1 r  225.50   Bur  de l'Arlot     PN
+ Rosenberg de Wettolsheim        2001   1 w   21.00   Als  Barnes Bueche
+ Royal Tokaji                    1993   1 w    0.00   Hun  Royal Tokaji
+ Royal Tokaji Aszu Essencia      1993   1 w    0.00   Hun
+ Saarburger Kupp Riesling Spatl  1983   1 w   32.00   Ger  Dr. Fischer
+ Sadler-Wells                    2002   1 r   30.00   Ame  Sonoma         PN
+ Saint Cosme                     1995   1 r   11.50   Rho  Barruol        SI
+ Saint-Joseph                    1994   1 r   45.00   Rho  Trollat        SI
+ Saint-Joseph                    1995   6 r   45.00   Rho  Trollat        SI
+ Saint-Joseph                    1995   1 r   65.00   Rho  Chapoutier     SI
+ Saint-Joseph                    1996   1 r    0.00   Rho  Chapoutier     SI
+ Sandeman                        1960   1 r   70.00   Por
+ Santenay La Comme Dessus        2002   1 r   31.00   Bur  Jean Marc Mor  PN
+ Savigny-Les-Beaune, Les Lavieres1995   1 r   16.00   Bur  Jadot          PN
+ Savigny-Les-Beaune, Les Lavieres2005   2 r   42.00   Bur  Briailles      PN
+ Savigny-Les-Beaune, Vergelesses 1995   1 r   16.00   Bur  Jadot          PN
+ Scharzhofberger Riesling Ausle  1983   1 w   32.00   Ger  von Hovel      RI
+ Scharzhofberger Riesling Spatl  1983   1 w   32.00   Ger  Hohe Domkirch  RI
+ Scherrer Pinot Noir             2002   2 r   36.00   Ame  Russian River  PN
+ Schloss Lieser Riesling Spatlese2011   2 w           Ger  Niederberg HeldRI
+ Schlossbockelheimer Felsenberg  1990   1 w    0.00   Ger  Herm.Donhoff   RI
+ Seavey                          1994   2 w   15.00   Ame
+ Serra Barbaresco Paitin         2011   4 r           Ita  Barbaresco
+ Sheeraz                         1998   2 r    0.00   Aus                 SI
+ Siduri Muirefield Willamette    1998   1 r   40.00   Ame  Oregon         PN
+ Silver Oak                      2009   1 r  100.00   Ame  Napa           CS
+ Silver Oak                      2010   4 r  100.00   Ame  Napa           CS
+ Sinskey                         2003   1 r   33.00   Ame  Napa           PN
+ Smith Woodhouse Colheita        1976   1 r   32.00   Por
+ Stags' Leap                     1993   2 r   60.00   Ame                 PS
+ Stags' Leap                     1998   2 r   36.00   Ame                 PS
+ Stags' Leap Artemis             2010   2 r   45.00   Ame  Napa           CS
+ Steele                          1998   1 r   30.00   Ame                 PN
+ Steele                          1998   1 r   23.00   Men  Pacini         ZI
+ Stellenzicht                    1998   1 r   15.00   Sou                 CS
+ Taylor Fladgate                 2000   1 r   68.00   Por
+ Terreus, Paraje de Cueva Baja   2006   1 r           Spa  Castilla y Leon
+ Tertre Rotebeauf                1995   1 r  150.00   Bor                 CS
+ The Hattrick                    1998   1 r    0.00   Aus  Australian Do  SI
+ Tinto Pesquera                  1990   1 r    0.00
+ Tinto Pesquera                  1995   2 r    0.00   Spa  Bodegas A. Fe  TE
+ Tinto Pesquera Janus            1994   1 r    0.00   Spa  Ribera del D
+ Tinto Pesquera Reserva          1995   1 r    0.00   Spa                 TE
+ Tinto Pesquera Reserva          1996   1 r    0.00   Spa  Alejandro Fer  TE
+ Tinto Pesquera Reserva Especial 1994   1 r  125.00   Spa                 TE
+ Tinto Valbueno 5                1991   1 r    0.00   Spa  Bodegas Vega   TE
+ Tokaj Aszu 5 putt               1990   1 w    0.00   Hun  Tokaj Kereske
+ Tokaji Aszu                     1986   1 w    0.00   Hun
+ Tokaji Aszu 3 putt Hetszolo     1997   1 w    0.00   Hun
+ Tokaji Aszu 4 putt              1990   2 w    0.00   Hun  Tokaji Keresk
+ Tokaji Aszu 5 putt              1973   1 w    0.00   Hun
+ Tokaji Aszu 5 putt              1988   2 w    0.00   Hun  Hollokolyi Is
+ Tokaji Aszu 5 putt              1990   2 w    0.00   Hun  Tokaji Keresk
+ Tokaji Aszu 5 putt Birsalmas    1993   2 w    0.00   Hun  Royal Tokaji
+ Tokaji Aszu 5 putt.             1995   3 w    0.00   Hun  Oremus
+ Tokaji Aszu 5 putt.             1983   1 w   45.00   Hun  Hungarovin
+ Tokaji Aszu 5 puttonyos         1993   1 w    0.00   Hun  Citadella
+ Tokaji Aszu 6 putt              1988   1 w    0.00   Hun
+ Tokaji Aszu 6 putt              1988   1 w    0.00   Hun  Tokaj Kereske
+ Tokaji Aszu 6 putt Mezes Maly   1993   2 w    0.00   Hun  Royal Tokaji
+ Tokaji Aszu 6 puttonyos         1993   1 w    0.00   Hun  Citadella
+ Tokaji Aszu 6 puttonyos         1983   1 w    0.00   Hun  Tokaji Keresk
+ Tokaji Aszu 6 puttonyos Golya   1989   1 w    0.00   Hun
+ Tokaji Aszu Essencia            1964   1 w    0.00   Hun
+ Tokaji Aszu Essencia Pajzos     1993   2 w   60.00   Hun  Pajzos
+ Tokaji Aszu Essencia            1988   3 w    0.00   Hun  Royal Tokaji
+ Tokaji Aszu Essencia Golya      1988   1 w    0.00   Hun
+ Tokaji Aszueszencia             2003   1 w           Hun  Puklus
+ Tokaji Aszu Nyulaszo            1993   3 w    0.00   Hun
+ Tokaji Aszu Szt. Tamas          1993   2 w    0.00   Hun
+ Tokaji Szamorodni sweet         1996   1 w   12.00   Hun  Tokaji Keresk
+ Torre Muga                      1994   2 r    0.00   Spa  Rioja          TE
+ Torre Muga                      1998   1 r    0.00   Spa  Rioja          TE
+ Turley Contra Costa             1996   1 r   80.00   Ame                 ZI
+ Turley Contra Costa             2000   1 r   85.00   Ame                 ZI
+ Turley Costa County             1995   1 r   85.00   Ame                 ZI
+ Turley Hayne                    1996   1 r   85.00   Ame                 ZI
+ Turley Petite Syrah                    1 r   70.00   Ame                 PS
+ Uriah                           2010   2 r   40.00   Ame  Spring ValleyORMECF
+ Valderiz                        2002   2 r   29.00   Spa  Ribera del D   TE
+ Vall Llach Embruix              2005   2 r   36.00   Spa  Priorat
+ Veramonte Pinot Noir            2005   3 r   15.00   Chi  Chile          PN
+ Veramonte Pinot Noir Reserva    2006   2 r   14.00   Chi  Chile          PN
+ Vieux Clocher-Vacqueyras        2004   6 r   14.00   Rho  Arnoux
+ Vigne de l'Enfant Jesus         1995   1 r   60.00   Bur  Bouchard       PN
+ Vigne de l'Enfant Jesus         2003   1 r   70.00   Bur  Bouchard       PN
+ Villacreces                     2004   3 r   32.00   Spa  Ribera del Due TE
+ Vina Ardanza                           1 r           Spa
+ Vinas del Cenit Zamora          2004   2 r   20.00   Spa  Vinas del CenitTE
+ Vital Pinot Noir                2005   1 r   29.00   Ame  Oregon         PN
+ Volnay                          1995   1 r   38.00   Bur  Leflaive       PN
+ Volnay                          1995   1 r   40.00   Bur  Lafarge        PN
+ Volnay Caillerets Cuvee Carnot  2002   1 r   42.00   Bur  Bouchard       PN
+ Volnay Clos des Chenes          1996   1     60.00   Bur  Girardin       PN
+ Volnay Les Champans 1er cru     2005   1 r   75.00   Bur  Voillot        PN
+ Volnay Les Premiets 1er cru     2005   2 r   65.00   Bur  Voillot        PN
+ Volnay-Chevret 1er Cru          1995   1 r   38.00   Bur  Drouhin        PN
+ Volnay-Santenots                1972   1 r    0.00   Bur  Polinet-Ampea  PN
+ Volnay-Santenots                1982   1 r   20.00   Bur  Ampeau         PN
+ Volnay-Santenots                1996   1 r   25.00   Bur  Matrot         PN
+ Vosne Romanee                   1995   1 r   45.00   Bur                 PN
+ Vosne Romanee                   1999   1 r   30.54   Bur  Drouhin        PN
+ Vosne Romanee 1 cru Les Suchots 1990   2 r  100.00   Bur  Mongeard-Mugn  PN
+ Vosne Romanee 1 cru Les Suchots 2002   1 r   72.00   Bur  Rion           PN
+ Vosne Romanee 1 cru Les Suchots 1997   6 r   40.00   Bur  Maniere-Noiro  PN
+ Vosne Romanee Aux Malconsorts   1976   1 r   55.50   Bur  Moillard       PN
+ Wehlener Sonnenuhr Riesling Aus 1983   1 w    0.00   Ger  Beucher        RI
+ Wehlener Sonnenuhr Riesling Aus 2008   2 w    0.00   Ger  Beucher        RI
+ Wehlener Sonnenuhr Riesling Kab 2008   3 w    0.00   Ger  Beucher        RI
+ Wehlener Sonnenuhr Spatlese     1964   1 w    0.00   Ger  Prum Erben     RI
+ WillaKenzie Estate Kiana        2005   1 r   46.00   Ore                 PN
+ Williams Selyem                 1994   1 r    0.00   Ame  Selyem         PN
+ Williams Selyem, Russian River  2000   1 r   55.00   Ame  Selyem, Allen  PN
+ Williams Selyem, Russian River  1998   1 r   55.00   Ame  Rochioli       PN
+ Williams Selyem, Sonoma         1999   1 r   55.00   Ame  Coastland      PN
+ Wiltinger Kupp Riesling Aus     1976   1 w    0.00   Ger                 RI
+ Winkeler Jesuitengarten Riesl   1976   1 w    0.00   Ger  Johannishof    RI
+ Wittman Beerenauslese           1998   1 w           Ger
+

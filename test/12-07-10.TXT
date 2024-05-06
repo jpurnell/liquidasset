@@ -1,0 +1,146 @@
+ WINETASTER ON 12-07-10 WITH  17 JUDGES AND  8 WINES BASED ON RANKS
+                      Copyright (c) 2003, Richard E. Quandt
+
+
+
+                              Rank Table
+
+ Judge                   Wines
+
+                    A  B  C  D  E  F  G  H
+
+
+ Joe                5  3  7  8  2  1  6  4
+ Orley              4  2  3  8  7  6  5  1
+ Robin              6  2  3  8  7  4  5  1
+ Molly              6  1  4  3  8  5  7  2
+ Dan                5  6  2  8  3  1  4  7
+ Rosemary           2  7  5  3  1  4  6  8
+ Joshua             4  8  2  7  5  3  6  1
+ Paul               1  8  3  6  5  4  7  2
+ Lyle               3  5  6  7  1  2  4  8
+ Debraj             8  1  7  2  3  4  5  6
+ Alexis             1  8  2  7  6  5  3  4
+ Brian              7  4  6  2  5  8  3  1
+ Alison             8  2  6  5  7  4  3  1
+ Ted                8  4  2  5  7  6  3  1
+ David              7  1  5  3  8  6  4  2
+ Howard             1  5  7  2  4  6  8  3
+ Karl               8  4  3  5  7  2  6  1
+
+            Table of Votes Against
+
+ Wine->     A     B     C     D     E     F     G     H
+ Rank
+
+  1.0      3.0   3.0   0.0   0.0   2.0   2.0   0.0   7.0
+  2.0      1.0   3.0   4.0   3.0   1.0   2.0   0.0   3.0
+  3.0      1.0   1.0   4.0   3.0   2.0   1.0   4.0   1.0
+  4.0      2.0   3.0   1.0   0.0   1.0   5.0   3.0   2.0
+  5.0      2.0   2.0   2.0   3.0   3.0   2.0   3.0   0.0
+  6.0      2.0   1.0   3.0   1.0   1.0   4.0   4.0   1.0
+  7.0      2.0   1.0   3.0   3.0   5.0   0.0   2.0   1.0
+  8.0      4.0   3.0   0.0   4.0   2.0   1.0   1.0   2.0
+
+                       Table of Votes Against
+ Wine        Votes Against
+
+ A              84.
+ B              71.
+ C              73.
+ D              89.
+ E              86.
+ F              71.
+ G              85.
+ H              53.
+
+
+
+ We now measure the amount of correlation (W) among the judges: 
+ W = 1.0 => perfect correlation, W = 0 => no correlation
+
+ We also provide a probability measure that this correlation is due to chance
+
+ In this case the Kendall W correlation is =     0.0824
+
+ Probability that correlation is due to chance = 0.2000
+
+ The Friedman Chi square is =       9.80
+ and the probability that this is due to chance is the same 0.2000
+
+
+
+We compute the correlation of each taster with the average ranking of the oth-
+ers. 1.0 => perfect correlation, 0 => no correl., -1.0 => total disagreement
+
+ Name of Person      Correlation R  
+
+ Robin                 0.8571
+ Karl                  0.7066
+ Orley                 0.6347
+ Joshua                0.4048
+ Molly                 0.3904
+ Alison                0.3593
+ Ted                   0.3333
+ David                 0.1429
+ Joe                   0.0359
+ Paul                 -0.0599
+ Dan                  -0.1198
+ Brian                -0.1916
+ Alexis               -0.3832
+ Howard               -0.4311
+ Debraj               -0.4524
+ Lyle                 -0.5389
+ Rosemary             -0.8333
+
+
+ The correlation between the aggregate ranking and the  wine prices is 0.0000.
+This has to exceed 0.5240 to be statistically significant.
+
+
+ Table of Aggregate Wine Quality
+
+  Wine  Ranksum  Significance             Wine  Ranksum  Significance
+       Alphabetic Order                        Ranksum Order
+   A   84.0                                H   53.0  SIGNIFICANTLY HIGH QUALITY
+   B   71.0                                B   71.0                            
+   C   73.0                                F   71.0                            
+   D   89.0                                C   73.0                            
+   E   86.0                                A   84.0                            
+   F   71.0                                G   85.0                            
+   G   85.0                                E   86.0                            
+   H   53.0  SIGNIFICANTLY HIGH QUALITY    D   89.0                            
+
+             Summary Grade Statistics for Wines
+ Wine     Mean     Standard Deviation
+
+  A        0.00            0.00
+  B        0.00            0.00
+  C        0.00            0.00
+  D        0.00            0.00
+  E        0.00            0.00
+  F        0.00            0.00
+  G        0.00            0.00
+  H        0.00            0.00
+
+            Summary Grade Statistics for Judges
+
+ Name             Mean    Std.Dev.
+
+ Joe               0.00    0.00
+ Orley             0.00    0.00
+ Robin             0.00    0.00
+ Molly             0.00    0.00
+ Dan               0.00    0.00
+ Rosemary          0.00    0.00
+ Joshua            0.00    0.00
+ Paul              0.00    0.00
+ Lyle              0.00    0.00
+ Debraj            0.00    0.00
+ Alexis            0.00    0.00
+ Brian             0.00    0.00
+ Alison            0.00    0.00
+ Ted               0.00    0.00
+ David             0.00    0.00
+ Howard            0.00    0.00
+ Karl              0.00    0.00

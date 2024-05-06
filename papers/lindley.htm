@@ -1,0 +1,468 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 2.0">
+<title>Lindley</title>
+</head>
+
+<body>
+
+
+
+
+                 <p align="center">   <font size="+2"><b>THE ANALYSIS OF A WINE TASTING</b></font></p>
+                  <p align="center">        Dennis V. Lindley</p>
+
+   <p align="center"><b> ABSTRACT</b></p>
+<p>Analyses are made of two wine tastings, one of red and one of white wines,
+ to compare French and American styles.  It is concluded that there are differences
+ between the wines and, in the case of the reds, national differences.  It is shown that
+ even skilled tasters can often be out by as much as 3 when judging on a scale from 0
+ to 20.  For the statistician, Bayes factors are contrasted with F-values.</p>
+
+ <p align="center"><b>1. DATA</b></p>
+<p>This note deals with the analysis of some data from one of the most famous
+ wine-tastings, as reported in the Underground Wine Journal for July 1976. The
+ tasting was organized by Englishman Steven Spurrier in Paris in order to introduce
+ Californian wines to experienced, French wine-tasters. Some French wines were
+ included to add to the interest.</p>
+<p>There were 11 tasters, one of whom was Spurrier, and another was an
+ American, Patricia Gallagher (these two were co-directors of L'Acad&eacute;mie du Vin in
+ Paris).  The remaining 9 were French. Table 1 lists them, together with their
+ numerical coding used in other tables and in this text.</p>
+<p>There were two tastings.  One was of Chardonnays; the other of Cabernet
+ Sauvignons, that is, of wines in which that grape was predominant.  In both tastings
+ there were 10 wines in all, 6 American and 4 French.  The Chardonnays are listed in
+ Table 2, the Cabernets in Table 3, in both cases with their numerical codes.  The
+ American wines were all from the Napa valley.  The French Chardonnays were from
+ Burgundy; the French Cabernets from Bordeaux; in both case wines of distinguished
+ pedigrees.  Each taster tasted every wine once, giving it a score from 0 to 20
+(though 19 and 20 were never used).  A few half-scores, like 14&frac12; occurred.
+ The results are given in Table 4 for the white wines, and in Table 5 for the reds.
+ Thus taster #4 gave Chardonnay <b>E</b> a score of 13.</p>
+<p>This is virtually all the information available. We do not know in which
+order the wines were tasted, so that any possible carry-over effects cannot be
+investigated. It is not clear whether the tasters compared notes. There is no
+evidence that they did except in the case of tasters 7 and 11 with the white wines,
+where their results are identical except for a disagreement of &frac12; with wine <b>B</b>.
+ They differ on the reds.  The tastings were all blind.  There is a suggestion that some, at
+least, of the tasters gave their opinion as to the country of origin of a wine, but no
+record is available. Of course, in giving a high score to a wine, an experienced
+taster may be reflecting his preference for the familiar as against the strange.
+</p>
+<p>The results surprised the French and delighted the Californians.  Our task is
+two-fold: to see how far these views are justified; and to explore the possibility of a
+statistical analysis of a well-organized tasting using modern methods.</p>
+
+<p align="center"><b>2. MEANS</b></p>
+<p> Table 6 lists the mean scores over the 11 tasters for each of the 20 wines
+under the heading 'raw means'. (The other values in the table will be discussed
+later.)  Also listed are the means for each country and overall, both for red and
+white wines.  Notice that, unlike those for the tasters, the codes for the
+wines are in a purposeful order, namely from <b>A</b>, which has the highest mean, to
+<b>J</b> for the lowest.</p>
+<p> There are marked differences between the Chardonnay wines, which are
+confirmed by a statistical analysis provided in  Section 5 below.  There are three that do well,
+with mean scores around 14 (<b>A</b>,<b>B</b>,<b>C</b>), one of which is French.  One American does
+badly (<b>J</b>). The remainder form a more homogeneous group with mean scores
+between 10.0 and 11.8, though there is some evidence of differences here also.  The
+French do slightly better than the Americans but the difference is unimportant and
+could easily arise by chance. If the poorly-performing wine <b>J</b> is removed, the
+American mean is higher than the French, but again the difference is unimportant.
+Thc exclusion of wine <b>J</b> has been justified on account of its non-Gallic character,
+and it is certainly true that the two non-French tasters (#4,8) gave it higher scores
+than any Gallic taster.  Nevertheless, the same argument has been put forward for
+wine <b>G</b> in the Cabernet tasting, whereas it did not disgrace itself.</p>
+<p> The first conclusion is that the American Chardonnays did as well as the
+French, but that there are real differences between some wines.  If the French were
+expecting to give high marks to their own wines in comparison with those from
+Napa, they failed.</p>
+<p>There are similarly marked differences between the Cabernets, that again are
+confirmed by a statistical analysis in Section 5. The wines do not naturally group
+themselves, there being a steady trend from the top two (<b>A</b>,<b>B</b>) at a mean score of
+14.1, to the bottom two (<b>I</b>, <b>J</b>) at around 9.7. Unlike the whites, the French reds
+are really judged better than the Americans with a mean score that is higher by 2.0.
+Four US wines do rather poorly and only two are up with the French.  Presumably
+in the scoring by the French tasters, they would judge a wine of Gallic type more
+highly than one of a different style, as the Americans were.  The latter were pure
+Cabernets whilst the familiar French style is not.  This national difference is slightly
+supported by the fact that the non-French tasters (#4,8) did tend to give high marks
+to US wines. Thus taster #4 gave wine <b>G</b> a score of 17, against an average of
+10.4; and wine <b>J</b> a score of 15, against an average of 9.6.</p>
+<p> On this simple basis of the means, the tasters observed real differences
+between the wines, both red and white.  With the whites, the Americans held their
+own, but were not so successful with the reds.  The claim that the Americans won is
+presumably based on the fact that both the top wines were from the Napa valley.
+We will later see why this claim is probably fallacious.</p>
+<p> We now turn to the tasters.  Their means over the 10 wines for both of the
+tastings are listed in Table 7. In the case of the Cabernets, the differences are most
+reasonably due to chance.  There are substantial differences with the Chardonnays,
+but these largely, though not entirely, disappear if the rogue wine <b>J</b> is removed.
+Whatever variation there is between the tasters is small in comparison with that
+between the wines. In any case, in comparative tastings it does not matter if a
+taster is biased. Another reason for not paying much attention to the apparent
+difference is that they are not systematic from white wine to red, with the exception
+of taster #5 who is low on both.</p>
+<p align="center"><b>3. COMPARISON OF THE WINES</b></p>
+<p>What a consumer wants to know is whether one wine is better than another.
+This tricky problem is now addressed.  The means given for the wines are somewhat
+misleading for a reason now to be explained. Suppose that there were truly no
+differences between the 10 wines in each group.  Then, because tasting and scoring
+are not precise sciences, the means over the 11 tasters will not all be equal, one
+wine will be at the top, another will be at the bottom in the scale of means.  The
+spread of the observed means is spurious, for the wines are truly the same.  To
+incorporate this observation, the spread needs to be reduced.</p>
+<p>The same consideration applies when there are (as in this tasting) real
+differences between the wines.  The apparently best wine is truly not as good as it
+looks: the apparently worst one is not all that bad. To correct for this, the means
+need to be 'shrunk' towards the average over all the wines. Table 6 provides, in
+addition to the observed means, these shrunk values.  Thus the top Cabernet at 14.1
+comes down to 13.6. Chardonnay <b>I</b> rises from 10.0 to 10.5. (The eccentric <b>J</b>
+has been removed for technical reasons.) The revised, shrunk means provide a
+better reflection of the true worths of the wines than do the raw data.</p>
+<p> With these corrected values, it is now possible to compare the wines in pairs.
+ This is done in Table 10 for the whites, and in Table 11 for the reds.  Each entry in
+ the table is the probability, expressed as a percentage, that the wine of that row is
+ better than the wine of that column. Thus, referring to Table 11, the entry of 73
+in the row numbered <b>B</b> and column numbered <b>D</b>, means that there is a probability of
+ 0.73, or 73%, that wine <b>B</b> is truly better than wine <b>D</b>.  Entries of 99% or more
+ have been denoted by * and it is reasonable to claim in these cases that these 11
+ tasters thought that the two wines were truly different.  Thus the first three Cabernets
+ are all better than the last 4. Again wine <b>J</b> has been omitted from the
+ Chardonnay table.  It can now be seen why the claim that, since a US wine was
+ the best in each class, the Americans won, is doubtful. There is only a 52%
+ probability that red wine <b>A</b> is better than <b>B</b>; and therefore a 48% probability that
+ it is worse.  It is not until wine <b>A</b> is compared with wine <b>E</b>, another American,
+ that there is substantial probability of a real difference. Similar remarks apply to
+ the whites.</p>
+<p align="center"> <b>4. RESIDUALS</b></p>
+<p> We have seen that there are real differences between the wines, both red and
+ white, and slight differences between the tasters with the white wines.  Consequently,
+ if we take the score given by a taster to a wine, it will be affected by the wine and
+ by any bias of the taster. It will also be affected by the fact, already mentioned,
+ that tasting is not a precise science.  It is revealing to see how large this last effect
+ is.  To illustrate, consider taster #4 with Cabernet <b>E</b>. She gave it a score of 16
+ (Table 5).  The mean for all Cabernets is 11.84 (Table 6). <b>E</b> had a mean over all
+ tasters of 12.14 (Table 6), an excess of 12.14 - 11.84 = 0.30. Taster #4 had a
+ mean over all wines of 13.90 (Table 7), an excess of 2.06. So taking account of the
+ wine and the taster involved, the score expected would be 11.84 + 0.30 + 2.06 =
+ 14.20. The observed value of 16 is in excess of this by 1.80 and is a measure of
+the imprecisions of tasting and scoring. It is called a residual. Table 8 lists all the
+residuals for the Chardonnays, and Table 9 does the same for the Cabernets. A
+negative entry means that the score given was less than that expected on the basis
+solely of the wine and the taster.</p>
+<p>There is no systematic pattern to these residuals but there are a few large
+values.  With the white wines, taster #3 gave an exceptionally low score of 3 to wine
+<b>A</b>, giving rise to a residual of -7.36. He gave a high score to wine <b>C</b>, resulting in
+a residual of +6.41. With the reds, there is a possibility that the tasters confused
+wines <b>H</b> and <b>I</b>. The residuals are high in opposite directions for tasters #5 and #10,
+and less so for tasters #1 and #2.</p>
+<p>The real interest in these residuals lies in their general magnitude, rather than
+in specific cases. To investigate this, we have, for each wine, taken the squares of
+the residuals, so avoiding their signs, and calculated their means.  These are called
+variances and the value for each wine is given in Table 6. The larger this quantity
+is, the more variable were the tasters' judgements of that wine.  Thus amongst the
+Chardonnays, wine <b>H</b> provoked the most disagreement, having a high variance of
+15.06. In contrast there was near unanimity about wine <b>D</b> with 3.04. Similarly,
+amongst the Cabernets, wine <b>I</b> was found hard to judge, with a variance of 15.87;
+wine <b>F</b> was the easiest with 2.90. Similar variances for the tasters are given in
+Table 7.    Here tasters #7 and #11 stand out for their consistency, having low
+variances though it should be recalled that they most likely co-operated in assessing
+the Chardonnays. No taster stands out as being especially variable in both
+tastings.</p>
+<p>A quantity of considerable interest is the mean of these variances.  It is 8.14
+for the whites, and 8.26 for the reds. (Readers familiar with the analysis of
+variance can appreciate this from Tables 12 and 13.) Remember these are means of
+squares.  So if the square roots are taken, we shall obtain something in the same
+units as the original scores.  The results are 2.85 and 2.87, virtually identical and
+2.9 will be used.  The near identity demonstrates that the tasters found the two sets
+of wines equally difficult to judge.  Recall that 2.9 measures the lack of precision in
+scoring and is not affected by either the wine or the bias of the taster.  A technical
+argument (based on the normal distribution) shows that about one third of the time
+a taster will be out by at least 2.9, in either direction, when giving a score.  This
+is borne out by the tables of residuals.  Thus when a wine is given a score of 12, it
+could easily be 9 or 15, one third of the time even larger.  A residual of twice 2.9,
+5.8, is unlikely to be exceeded.  Thus a score of 12 only asserts a true score of a
+little more than 6, or a little less than 18. Tasting of red and white wines is
+imprecise. This fact demonstrates the need for several, independent tasters. To
+reduce that 2.9 to 1.0, so that the mean score is most likely not to be more than 1 out,
+requires 9 tasters. To be fairly sure of a discrepancy of no more than 1,
+requires about 33. The participants in this tasting were highly regarded, so this
+result testifies to how hard skilled people find the judgement of wine.  Yet there are
+often articles in the wine press that give opinions based on that of the author alone.
+Unless the author is much more skilled than the participants in this tasting, the
+opinions cannot be relied upon.</p>
+<p align="center"><b>5. TECHNICAL ISSUES</b></p>
+<p> Appreciation of this section requires some knowledge of statistics.
+Statisticians will immediately recognize the two data sets as examples of two-way
+tables of sizes l0 by 11. They will therefore expect analyses of variance.  These are
+provided in Table 12 for the Chardonnays and Table 13 for the Cabernets.  There is
+no replication, so the interaction between wines and tasters cannot be evaluated.
+The tables of residuals (8 and 9) do not suggest any interactions; for example,
+between the two French tasters and the French wines.  A study of the appropriate
+one degree of freedom confirms this.  An additive model appears adequate and the
+wine&times;tasters sums of squares have been used as errors.</p>
+<p>The analysis-of-variance tables include the components of variance and their
+usual estimates.  In the case of the white wines, the analyses without the anomalous
+wine <b>J</b> been given. In the case of the Chardonnays with wine <b>J</b>
+excluded, the variance between wines is 2.18 and that between tasters a little less at
+1.77, both substantially less than the residual discussed in Section 4 of 8.26. For the
+Cabernets, the variance between wines is a little higher at 2.56, whereas that
+between tasters is much lower at 0.64. The residual at 8.67 is higher and virtually
+the same as that for the Chardonnays.  It is these components of variance that have
+been used to decide on the amount of shrinkage of the wine means.  This shrinkage
+avoids all problems over multiple comparisons.</p>
+<p> Standard practice with such tables is to perform significance tests; here F-
+tests of wines, or tasters, against the residuals.  Recent work shows that such tests
+are unreliable indicators of effects, usually on the side of suggesting effects that do
+not exist. The coherent alternative is to calculate Bayes factors. They give the
+factor by which the prior odds on the null hypothesis of no effect has to be
+multiplied to give the posterior odds.  Both are given in the tables and it will readily
+be seen that the Bayes factor is more conservative than the F-test. For example,
+take the one degree of freedom for France versus the States in the Cabernet table
+(#13).  The F-test is significant at 0.1%, or 0.001. The Bayes factor is only 0.020,
+20 times greater.</p>
+<pre>                                                                               March 1993
+                          <b>TABLE 1 TASTERS</b>
+
+       1    Pierre Brejoux, Institute of Appelations of Origin
+       2    Aubert de Villaine, Manager, Domaine de la Roman&eacute;e-Conti
+       3    Michel Dovaz, Wine Institute of France
+       4    Patricia Gallagher, L'Acad&eacute;mie du Vin
+       5    Odette Kahn, Director, <i>Review of French Wines</i>
+       6    Christian Millau, <i>Le Nouveau Guide</i> restaurant guide
+       7    Raymond Oliver, Owner, Le Grand Vefour
+       8    Steven Spurrier, L'Acad&eacute;mie du Vin
+       9    Pierre Tart, Owner of Chateau Giscours
+       10   Christian Vanneque, Sommelier, La Tour D'Argent
+       11   Jean-Claude Vrinat, Taillevent
+
+
+
+                         <b>TABLE 2 CHARDONNAYS</b>
+
+              A     Chateau Montelena 1973 US
+              B     Mersault Charmes 1973 F
+              C     Chalone Vineyards 1974 US
+              D     Spring Mountain 1973 tJS
+              E     Freemark Abbey 1972 US
+              F     B&acirc;tard-Montrachet 1972 F
+              G     Puligny-Montrachet 1972 F
+              H     Beaune, Clos des Mouches 1973 F
+              I     Veedercrest 1972 US
+              J     David Bruce (regular) 1973 US
+
+                      <b>TABLE 3 CABERNET SAUVIGNONS</b>
+
+              A     Stag's Leap Wine Cellar 1973 IJS
+              B     Ch&acirc;teau Mouton Rothschild 1970 F
+              C     Ch&acirc;teau Montrose 1970 F  
+	      D     Ch&acirc;teau Haut Brion 1970 F
+              E     Ridge Monte Bello 1971 US
+              F     Ch&acirc;teau L&eacute;oville-Las-Cases 1971 F
+              G     Heitz "Martha's Vineyard" 1970 US
+              H     Clos du Val 1972 US
+              I     Mayacamas 1971 US
+              J     Freemark Abbey 1969 US
+
+                        <b>TABLE 4 CHARDONNAY SCORES</b>
+						
+                                 TASTERS
+         1     2     3     4     5     6     7     8     9    10    11
+WINES
+  A     10    18     3    14    16.5  18.5  17    14    14    16.5  17
+  B     15    15    12    16    16    15    14    11    13    16    14.5
+  C     16    10    16    15    12    11    13    14    16    14    13
+  D     10    13    10    16    10    15    12    10    13     9    12
+  E     13    12     4    13    13    10    12    15     9    15    12
+  F      8    13    10    11     9     9    12    15    14     7    12
+  G     11    10     5    15     8     8    12    14    13     9    12
+  H      5    15     4     7    16    14    14.5   7    12     6    14.5
+  I      6    12     7    12     5    16    10    10    14     8    10
+  J      0     8     2    11     1     4     7    10     8     5     7
+
+                         <b>TABLE 5 CABERNET SCORES</b>
+
+                                 TASTERS
+         1     2     3     4     5     6     7     8     9    10    11
+WINES
+  A     14    15    10    14    15    16    14    14    13    16.5  14
+  B     16    14    15    15    12    16    12    14    11    16    14
+  C     12    16    11    14    12    17    14    14    14    11    15
+  D     17    15    12    12    12    13.5  10     8    14    17    15
+  E     13     9    12    16     7     7    12    14    17    15.5  11
+  F     10    10    10    14    12    11    12    12    12     8    12
+  G     12     7    11.5  17     2     8    10    13    15    10     9
+  H     14     5    11    13     2     9    10    11    13    16.5   7
+  I      5    12     8     9    13     9.5  14     9    12     3    13
+  J      7     7    15    15     5     9     8    13    14     6     7
+
+
+
+                              <b>TABLE 6 SUMMARIES</b>
+                  CHARDONNAYS                     CABERNETS
+             MEANS        VARIANCES           MEANS       VARIANCES
+  WINES    RAW  SHRUNK              WINES   RAW  SHRUNK
+
+    A     14.4   13.7       10.64     A    14.1   13.6       5.25
+    B     14.3   13.7        4.69     B    14.1   13.6       4.07
+    C     13.6   13.2       10.39     C    13.6   13.2       4.77
+    D     11.8   11.8        3.04     D    13.2   12.9       9.18
+    E     11.6   11.7        7.51     E    12.1   12.1       6.34
+    F     10.9   11.1        4.71     F    11.2   11.3       2.90
+    G     10.6   10.9        4.32     G    10.4   10.8       8.46
+    H     10.5   10.8       15.06     H    10.1   10.6      11.50
+    I     10.0   10.5        6.41     I     9.8   10.3      15.87
+    J      5.7   -           6.50     J     9.6   10.2       9.67
+
+    US    11.20 (without <b>J</b> 12.30)     US    11.04
+     F    11.58                        F    13.03
+   all    11.35                      all    11.84
+
+                              <b>TABLE 7 TASTERS</b>
+
+                       CHARDONNAYS           CABERNETS
+         TASTERS    MEAN      VARIANCE     MEAN     VARIANCE
+            1        9.4       8.84        12.0       7.73
+            2       12.6       5.25        11.0       7.07
+            3        7.3      15.06        11.6       6.76
+            4       13.0       6.66        13.9       7.08
+            5       10.7      10.97         9.2      15.08
+            6       12.1      10.48        11.6       5.77
+            7       12.4       2.05        11.6       3.98
+            8       12.0       8.89        12.2       5.52
+            9       12.6       4.34        13.5       6.83
+           10       10.6       6.94        12.0      16.82
+           11       12.4       1.93        11.7       4.00
+
+
+
+                        <b>TABLE 8 CHARDONNAY RESIDUALS</b>
+							 
+  WINES                             TASTERS
+         1     2     3     4     5     6     7     8     9    10    11
+   A   -2.46 +2.34 -7.36 -2.06 +2.79 +3.39 +1.59 -1.06 -1.66 +2.89 +1.54
+   B   +2.63 -0.57 +1.73 +0.03 +2.38 -0.02 -1.32 -3.97 -2.57 +2.48 -0.87
+   C   +4.31 -4.89 +6.41 -0.29 -0.94 -3.34 -1.64 -0.29 +1.11 +1.16 -1.69
+   D   +0.13 -0.07 +2.23 +2.53 -1.12 +2.48 -0.82 -2.47 -0.07 -2.02 -0.87
+   E   +3.31 -0.89 -3.59 -0.29 +2.06 -2.34 -0.64 +2.71 -3.89 +4.16 -0.69
+   F   -0.96 +0.84 +3.14 -1.56 -1.21 -2.61 +0.09 +3.44 +1.84 -3.11 +0.04
+   G   +2.31 -1.89 -1.59 +2.71 -1.94 -3.34 +0.36 +2.71 +1.11 -0.84 +0.31
+   H   -3.51 +3.29 -2.41 -5.11 +6.24 +2.84 +3.04 -4.11 +0.29 -3.66 +2.99
+   I   -2.05 +0.75 +1.05 +0.35 -4.30 +5.30 -1.00 -0.65 +2.75 -1.20 -1.05
+   J   -3.78 +1.02 +0.32 +3.62 -4.03 -2.43 +0.27 +3.62 +1.02 +0.07 +0.22
+
+                         <b> TABLE 9 CABERNET RESIDUALS</b>
+							  
+  WINES                             TASTERS
+         1     2     3     4     5     6     7     8     9    10    11
+   A   -0.30 +1.70 -3.85 -2.20 +3.50 +2.10 +0.10 -0.50 -2.80 +2.25  0.00
+   B   +1.75 +0.75 +1.20 -1.15 +0.55 +2.15 -1.85 -0.45 -4.75 +1.80 +0.05
+   C   -1.80 +3.20 -2.35 -1.70 +1.00 +3.60 +0.60  0.00 -1.30 -2.75 +1.50
+   D   +3.61 +2.61 -0.94 -3.29 +1.41 +0.51 -2.99 -5.59 -0.89 +3.66 +1.91
+   E   +0.70 -2.30 +0.15 +1.80 -2.50 -4.90 +0.10 +1.50 +3.20 +3.25 -1.00
+   F   -1.34 -0.34 -0.89 +0.76 +3.46 +0.06 +1.06 +0.46 -0.84 -3.29 +0.96
+   G   +1.43 -2.57 +1.38 +4.53 -5.77 -2.17 -0.17 +2.23 +2.93 -0.52 -1.27
+   H   +3.70 -4.30 +1.15 +0.80 -5.50 -0.90 +0.10 +0.50 +1.20 +6.25 -3.00
+   I   -4.93 +3.07 -1.48 -2.83 +5.87 -0.03 +4.47 -1.13 +0.57 -6.88 +3.37
+   J   -2.80 -1.80 +5.65 +3.30 -2.00 -0.40 -1.40 +3.00 +2.70 -3.75 -2.50
+
+
+
+
+                <b>TABLE 10 CHARDONNAY DIFFERENCES</b>
+
+         WINES    B    C    D    E    F    G    H    I
+
+           A     52   71   96   97    *    *    *    *
+           B          68   96   97    *    *    *    *
+           C               90   92   97   98    *    *
+           D                    55   74   80   83   90
+           E                         70   76   79   87
+           F                              58   62   74
+           G                                   55   67
+           H                                        63
+
+              For legend see Table 11.  Wine <B>J</B> is omitted
+
+                 <b>TABLE 11 CABERNET DIFFERENCES</b>
+
+         WINES    B    C    D    E    F    G    H    I    J
+
+           A     52   64   74   92   98    *    *    *    *
+           B          62   73   91   98    *    *    *    *
+           C               61   85   96    *    *    *    *
+           D                    77   92   97   98
+           E                         75   88   92   95   96
+           F                              71   76   83   86
+           G                                   57   67   70
+           H                                        60   64
+           I                                             54
+
+         The entry in any cell is the probability (&times;lOO) that the wine of
+                the row is better than that of the column
+                      *  means 99 or more.
+
+
+
+                    <b>TABLE 12 CHARDONNAY ANALYSIS OF VARIANCE</b>
+
+
+             sums of d.f. mean    variance      Bayes        F
+             squares     squares  components    factor
+
+ wines       645.04   9   71.67   s<sup>2</sup>+11s<sup>2</sup><sub>w</sub>      9.7E-12    8.80 (0.1%:3.5)
+
+tasters      301.97  10   30.20   s<sup>2</sup>+10s<sup>2</sup><sub>w</sub>      0.00089    3.71 (0.1%:3.3)
+
+residual     732.66  90    8.14   s<sup>2</sup>
+
+ F v US               1    3.71                2.42       0.46
+
+
+          s<sup>2</sup> = 8.14, s<sup>2</sup><sub>w</sub>=5.78, s<sup>2</sup><sub>t</sub> = 2.21
+
+
+                    Analysis without wine <b>J</b>
+
+
+ wines       258.01   8   32.25    s<sup>2</sup>+11s<sup>2</sup><sub>w</sub>      0.0021    3.90 (0.1%:3.3)
+
+tasters      241.96  10   24.20    s<sup>2</sup>+10s<sup>2</sup><sub>w</sub>      0.014     2.93 (0.5%:2.8)
+
+residual     660.50  80    8.26    s<sup>2</sup>
+
+ F v US               1   12.69                 1.12      1.54 (10%:2.8)
+
+
+          s<sup>2</sup> = 8.26, s<sup>2</sup><sub>w</sub>=2.18, s<sup>2</sup><sub>t</sub> = 1.77
+
+        E(h<sub>i</sub>) = 0.74x<sub>i.</sub>+026x<sub>..</sub>,  s.d.(h<sub>i</sub>-h<sub>j</sub>|data) = 1.06
+
+
+
+                     or that with <b>TABLE 13 CABERNETS ANALYSIS OF VARIANCE</b>
+
+
+             sums of d.f. mean    variance      Bayes        F
+             squares     squares  components    factor
+
+ wines       331.01   9   36.78   s<sup>2</sup>+11s<sup>2</sup><sub>w</sub>      0.00030    4.24 (0.1%:3.5)
+
+tasters      150.60  10   15.06   s<sup>2</sup>+10s<sup>2</sup><sub>w</sub>      0.39       1.74 (10%:1.67)
+
+residual     779.94  90    8.67   s<sup>2</sup>
+
+ F v US               1  105.21                0.020     12.13 (0.1%:11.6)
+
+
+          s<sup>2</sup> = 8.67, s<sup>2</sup><sub>w</sub>=2.56, s<sup>2</sup><sub>t</sub> = 0.64
+
+        E(h<sub>i</sub>) = 0.76x<sub>i.</sub>+024x<sub>..</sub>,  s.d.(h<sub>i</sub>-h<sub>j</sub>|data) = 1.10
+.
+<div align="center"><a href="index.html">Return to front page</a></div>
+</body>
+</html>

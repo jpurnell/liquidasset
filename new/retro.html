@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>Untitled</title>
+</head>
+
+<body>
+<div align="center"><font size="+3"><b>A Solipsistic View of Wine Tasting</b></font></div><br>
+<div align="center"><font size="+2">Richard E. Quandt</font></div>
+<p>At the timeof this writing (December, 2003), the Liquid Assets<sup>&reg;</sup> wine tasting group and its affiliates have 
+held 71 tastings The tastings were always "blind" and the statistical analysis was almost invariably carried out 
+using the Winetaster<sup>&reg;</sup> software. The first tasting by this methodology took place on March 9, 1998. One of the key elements
+that is measured in these tastings is the Kendall <i>W</i> coefficient of concordance, which, in effect, measures the extent to which the "judges" 
+agree with one another. The coefficient ranges from 0 (no agreement) to 1.0 (perfect agreement). </p>
+<p>What does strong agreement among the judges signify? It is tempting to argue that if they all agree, they all have exquisite palates
+that are able to distinguish between good and bad wines, or between better and worse wines. But unfortunately, this is
+not necesssarily so. There could, in principle, be complete agreement among the judges, yet they could all have
+execrable tastebuds and agree that a mixture of various Algerian reds is vastly preferable to Ch. Petrus 1990.
+It is also possible that lack of disagreement reflects differences in what particular tasters like: people 
+have differential tolerance for various charactertistics of wine such as traces of excess acidity or oxidation or residual sugar or what have you.
+In what follows, we will assume that this is not the case; i.e., that high degrees of agreement represent an
+improvement in the groups ability as a whole to discriminate between good, bad, better and worse wines. It should also be noted that the 
+judges over time were not an invariant group: while, with one or two exception, core members predominated
+in the tastings, frequently occasional guests participated. Ignoring the occasional
+variation in the composition of the group, the question then is this:
+has the group improved over time its ability to discern good and bad wines, or in other words, has the
+Kendall coefficient <i>W</i> shown any tendency to increase over time?</p>
+<p>A small amount of reflection will convince one that looking at the value of <i>W</i> is not the right way of going about this. The reason
+for this is that the number of tasters and the number of wines tasted differ from time to time and the
+statistical significance of any one <i>W</i> value depends on those two factors. Thus, for example, if 7 wines are being ranked by 7 judges, a 
+value of <i>W</i>=0.4 is statistically significantly different from zero at the .05 level, but this value is 
+not significant if there are if there are only 6 wines. Hence, instead of looking at the value of W, we shall examine the
+so-called <i>p-value</i>, i.e., the probability the the stated <i>W</i>-value could have occurred by chance.</p>
+<p>First of all, we note that of the 69 data-points (two tastings were omitted because they did not conform to the standard procedure),
+40 had p-values less than or equal to 0.10 and 32 less than 0.05. This indicates that roughly one half of the tastings produced 
+statistically significant agreement among the judges. The empirical density function of the <i>p-values</i> was obtained nonparametrically 
+and is shown in Figures 1 and 2.
+<img src="gauss-2.jpg" border="1" hspace="25" vspace="25"  width="300" height="200" align="left" alt="">
+<img src="epan-2.jpg" border="1" hspace="25" vspace="25"  width="300" height="200" align="right" alt=""><br><br><br>
+<div align="center" style="position:absolute;left:20%;"><font size="3" ><strong>Figure 1</strong></div>
+<div align="center" style="position:absolute;left:75%;"><font size="3" ><strong>Figure 2</strong></div>
+</p><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<p>Both Figures employ a window width of 0.0687; Figure 1 employs the Gaussian kernel while Figure 2 the Epanechnikov kernel.They both 
+confirm the presence of many observations in the left tail and both densities are highly skewed to the right.</p>
+<p>A descriptive view of the behavior of the <i>p-values </i>over time can be obtained from Figure 3, which simply depicts the time series
+of <i>p-value</i> observations.
+<img src="timeser-1.jpg" border="1" hspace="25" vspace="25"  width="300" height="200" align="left" alt=""><br><br><br>
+<div align="center" style="position:absolute;left:20%;"><font size="3" ><strong>Figure 3</strong></div>
+Inspection suggests that there is no trend in the p-values, i.e., contrary to what might have been hoped, the group has not become more discerning or discriminating over time.
+Such improvement might have been expected, since after the group members assign ranks to the various wines, usually extensive discussion ensues, through which members can 
+contrast their own subjective reactions to the wines to those reported by other members of the group. It 
+seems fairly obvious that no improvement has taken place in the group's ability to discern wines.</p>
+<p>The last analysis undertaken here is a regression analysis in which the <i>p-values </i>are the dependent variable and are regressed on a number of other variables 
+that might explain the resulting <i>p-values</i>. In particular, we hypothesized that the p-values may be affected by a trend variable, i.e., later tastings ought to produce smaller p-values if learning has taken place, 
+by the number of wines in a tasting (more wines should make it more difficult to get agreement), by the number of judges (the presence of more judges might make it more difficult to get agreement), and by a number of dummy variables
+describing the type of wine tasted. The most general regression equation that was estimated was the following:</p><br>
+<p><div align="center"><i>y<sub>i</sub> = b<sub>0</sub> + b<sub>1</sub>i + b<sub>2</sub>wines<sub>i</sub> + b<sub>3</sub>judges<sub>i</sub> + 
+b<sub>4</sub>bor<sub>i</sub> + b<sub>5</sub>bur<sub>i</sub> + b<sub>6</sub>rho<sub>i</sub> + b<sub>7</sub>ger<sub>i</sub> + b<sub>8</sub>ita<sub>i</sub> + b<sub>9</sub>spa<sub>i</sub> + b<sub>10</sub>ame<sub>i</sub> + u<sub>i</sub></i></div></p><br>
+<p>where</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>y<sub>i</sub></i> = <i>p-value </i>for the i<sup>th</sup> tasting<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>i</i> = a trend variable denoting the tasting<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>wines<sub>i</sub></i> = the number of wines in the i<sup>th</sup> tasting<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>judges<sub>i</sub></i>= the number of judges in the i<sup>th</sup> tasting<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>bor<sub>i</sub></i>= 1 if all the wines in the tasting were Bordeaux wines and 0 otherwise<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>bur<sub>i</sub></i>= 1 if all the wines were Burgundy wines and 0 otherwise<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>rho<sub>i</sub></i>= 1 if all the wines were Rhone wines and 0 otherwise<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>ger<sub>i</sub></i>= 1 if all the wines were German wines and 0 otherwise<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>ita<sub>i</sub></i>= 1 if all the wines were Italian wines and 0 otherwise<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>spa<sub>i</sub></i>= 1 if all the wines were Spanish wines and 0 otherwise<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>ame<sub>i</sub></i>= 1 if all the wines were American wines and 0 otherwise<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>u<sub>i</sub></i>= denotes the unobserved error term<br>
+and the <i>b</i>'s are coefficients to be estimated.</p>
+<p>Nineteen of the tastings were devoted to Bordeaux wines, 7 to Burgundies, 6 to Rhone wines, 4 to German wines, 3 to Italian wines, 3 to Spanish wines and 11 to American wines. The balance of the tastings
+were either devoted to some special category of tasting (for example, wines from Provence) or to a mixture of wines from more than one region.</p>
+<p> The regression equation shows no statistically significant rresults of any kind. None of the regression coefficients is statistically significantly different from zero, and the overall regression, with an R<sup>2</sup> = 0.1191
+is not significant either. For what it is worth, we note that <i>b<sub>2</sub>, b<sub>3</sub>, b<sub>6</sub></i> and <i>b<sub>8</sub></i> are negative, indicating that later tastings, the number of wines, Rhone wines and Italian wines
+marginally reduce the <i>p-value</i>,i.e., increase the significance of the agreement.
+</body>
+</html>
