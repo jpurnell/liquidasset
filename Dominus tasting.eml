@@ -1,0 +1,343 @@
+Delivered-To: jpurnell@gmail.com
+Received: by 2002:a05:6a21:918a:b0:1f3:3e89:8c06 with SMTP id tp10csp2676911pzb;
+        Mon, 17 Mar 2025 18:05:24 -0700 (PDT)
+X-Received: by 2002:a05:620a:4004:b0:7c5:46d0:a77f with SMTP id af79cd13be357-7c57c7d6cb1mr1930049085a.16.1742259924708;
+        Mon, 17 Mar 2025 18:05:24 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1742259924; cv=none;
+        d=google.com; s=arc-20240605;
+        b=Xo9SNDI3AnShJ/sMXiXYuUa05+qEg5bgv/zMuHJ7J5R32e1L/nT03Ndw5odleV8UYo
+         1xXiNkF9IKyBJVBjDPekYxjv+kwuJ60uX1ZCOiWXqSGEuM2CtE6Pg6qF9JGouW4852OH
+         bzdAS6NE1Poe4dYLmLB48jdGsYPNYT23EOteS+d4hVl9jyhrBjOEXhK3ALiCfdOVC39Z
+         vD3QZOs5MCpnmwtElyRSySFi1B3ibp0xmViwpWITK6X3LfR1PCiuVIwXSYJN7iE4wqd/
+         plp0el4MQb2PIneXHixqarWdOUUIoyfWL0tI0M+5q/egPw3ioUE1TaESzUuqNCxlvwmH
+         hNvQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:message-id:subject:date:mime-version:content-transfer-encoding
+         :from:dkim-signature;
+        bh=Xjkg+Deqb9YHNQaPOvBlrKzjzlVgeKG83eJ/D15rpao=;
+        fh=MW9+Op42vcEmiqm+WoqN9W1ZsPBkGZJNT2ErSc3LGOU=;
+        b=LcmgASAqXYuBN631nFnMNThh0RpVdNbLIDS+ZGwOZK9RZlhEdQWhed+Doaj2BRyyK+
+         lNs8Qh5FkeXGKQd4Gtp+YEqr4L56J0MkDV2uNzRHfj7Z5qcb4BaxhQdW7EyNH8ymjFtg
+         ZMQW8+zIqN+SXIVfUGx+68D/EbJOP9OYQK+6lLjjeQiJUKgN9CXdoh1Nlr3mQGL9KqQG
+         KAuP1QL/2GjJTig6hjrfV4WQ4yemV6HSkfDewCO5X1S2xuDBxlFXs9ueDdBvz8t27ntx
+         aHGz7FDYo145P53Qt8wnqjeDei67ZHFBov+hJ2dT7jalPsDXrEJVcWvMkXVrul99hmWd
+         VN/g==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20230601 header.b=TiszXfze;
+       spf=pass (google.com: domain of mikeheadprinceton@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=mikeheadprinceton@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com;
+       dara=pass header.i=@gmail.com
+Return-Path: <mikeheadprinceton@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id af79cd13be357-7c573c9a93esor1138285385a.16.2025.03.17.18.05.24
+        for <jpurnell@gmail.com>
+        (Google Transport Security);
+        Mon, 17 Mar 2025 18:05:24 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mikeheadprinceton@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20230601 header.b=TiszXfze;
+       spf=pass (google.com: domain of mikeheadprinceton@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=mikeheadprinceton@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com;
+       dara=pass header.i=@gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1742259923; x=1742864723; dara=google.com;
+        h=to:message-id:subject:date:mime-version:content-transfer-encoding
+         :from:from:to:cc:subject:date:message-id:reply-to;
+        bh=Xjkg+Deqb9YHNQaPOvBlrKzjzlVgeKG83eJ/D15rpao=;
+        b=TiszXfzeynY1NExHUHYgg9vhTmy5q/fdKID/JFgaFpZjIy05qJrSiA9ubpZJrvfmai
+         Hk94F8txaOgk0rQnLpNc2UGnS1OOflqWwhCHUhWhstMC2usCty0BfONMvdTGaDSJXT7N
+         vdOmRGhlsIioBiiCHSJmf0C4T1mD1dsChDTb0b/4LJtOIWOi30ApnSp55OX5qgY40DhU
+         CuHJjm7Hzju7hdXUXO6ELbwOHyWTlkA8HOo2CD/inu+8si7suBRbci8/qarG6hsobxkB
+         uOa5XC6BiNhJn2kMq7bWbfKprTIXuseJ9o7ELGtq12kc72IFCXqHnUYqo0x00L6hqSED
+         wa7g==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1742259923; x=1742864723;
+        h=to:message-id:subject:date:mime-version:content-transfer-encoding
+         :from:x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=Xjkg+Deqb9YHNQaPOvBlrKzjzlVgeKG83eJ/D15rpao=;
+        b=rW5WA3jVxyJPlaWIdlOumcdMDbV86j6FZgwAfiFY2VF7aoHh0g/2m/udtvi8T1AY34
+         vGgVJ4sIeRrbf239JUiYXoPNGzSPE/SKLhOApz4ehDTqOCG3PBIbhiIIopJorwhPdCJJ
+         AGyk7zUGIsqvi7OhkXRzrrM4Sv4yqK1rLd26OxzCMHqx8JIuJZBkFe4GbpDKeEmIQg8Y
+         u0iZW1lv7q1SjyujwTOp5OZ56FYiRqXVCziPmQNdSg5+bg119hAW9CJYl6pnT5jKenVs
+         OfjVtccbKlXZQGtypgFsLQmwObZc/89/2DtLla2zBqyct5ZBoRXiGlV608CnsOftt+3n
+         RVnA==
+X-Gm-Message-State: AOJu0Yw2sMwXs/jIKmabQ94f45pIvaTPaDiSN8cNf0zdKmOqdLPdvthu
+	sqijcLa+zIACEkA7972AokNwi1xvN+61quwqA8VYFFJrht3Q1mSOezc81g==
+X-Gm-Gg: ASbGncsBGo2cWRAq9I97zhMm50k8SpyCK1tpcLWKt5q0tv8oeiAYE9ZXWzWdTdqe27V
+	G1pphm1EgrpjXenmac55FjvqN4iNBD60Ro/hFKJOL4bMgmLwxphuUrtbIeEt1CPbNL+eEJ3aX+p
+	R7zDAvCAPYrmH1w1XyORH9Ylc/oo1xuZgoIVKk8y6HXuDrxr4KsWch1A4gcXL2r6M1z1DUk20y3
+	6B8W464kSE9PPk+CLa3vmkPKKhaXpZt5d+yDDKKoEDtzqyQkMohSUpk0Gre+b4HZpYGl1i4riYK
+	XQWNsHa4Qk3PB7lYDYhELh6+cPyIGDPrve0ZUjorqVFgGlbCv/MYtF3hQnBMEkl2eeXQcgK+YzO
+	+hYAicFaK0tiJMdv3wdGW4qgygvRlUNDeLr8f8pXonSw=
+X-Google-Smtp-Source: AGHT+IHb6fWP0z/qIbWJs8XLD8qolbNj+ssYlstNxDsj1vsxO5qrBx5YTGpU1v5QF3D0Dk4QJp51mQ==
+X-Received: by 2002:a05:6214:ca9:b0:6e8:f3ec:5406 with SMTP id 6a1803df08f44-6eaeaa1d006mr222636726d6.19.1742259923205;
+        Mon, 17 Mar 2025 18:05:23 -0700 (PDT)
+Return-Path: <mikeheadprinceton@gmail.com>
+Received: from smtpclient.apple (pool-173-72-38-105.cmdnnj.fios.verizon.net. [173.72.38.105])
+        by smtp.gmail.com with ESMTPSA id 6a1803df08f44-6eae3c57becsm54675536d6.11.2025.03.17.18.05.21
+        for <jpurnell@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Mon, 17 Mar 2025 18:05:22 -0700 (PDT)
+From: Mike Head <mikeheadprinceton@gmail.com>
+X-Google-Original-From: Mike Head <Mikeheadprinceton@gmail.com>
+Content-Type: multipart/mixed; boundary=Apple-Mail-5B38E8F2-8EC8-4E16-8652-B26D8981A6D7
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (1.0)
+Date: Mon, 17 Mar 2025 21:05:10 -0400
+Subject: Dominus tasting 
+Message-Id: <5AE5CB61-57C2-414F-A2FB-A1EEFCB908EE@gmail.com>
+To: Justin Purnell <jpurnell@gmail.com>
+X-Mailer: iPad Mail (22D82)
+
+
+--Apple-Mail-5B38E8F2-8EC8-4E16-8652-B26D8981A6D7
+Content-Type: text/plain;
+	charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Justin would you please
+
+
+--Apple-Mail-5B38E8F2-8EC8-4E16-8652-B26D8981A6D7
+Content-Type: text/html;
+	name=report256.html;
+	x-apple-part-url=FD0F7B32-DAF0-4DBD-958D-04BBD4440375
+Content-Disposition: attachment;
+	filename=report256.html
+Content-Transfer-Encoding: quoted-printable
+
+	<html>
+	<head>
+	<title>Report</title>
+	<style>
+		div.header {
+			width: auto;
+			display: block;
+			white-space: pre;
+		}
+	=09
+		div.table {
+			width: auto;
+			display: block;
+			white-space: pre;
+			display: -webkit-flex; /* Safari */
+			  -webkit-justify-content: center; /* Safari 6.1+ *=
+/
+			  display: flex;
+			  justify-content: left;
+		}
+	=09
+		div.body {
+			display: block;
+			width: auto;
+			text-justify: inter-word;
+			white-space: normal;
+			display: -webkit-flex; /* Safari */
+			  -webkit-justify-content: center; /* Safari 6.1+ *=
+/
+			  display: flex;
+			  justify-content: left;
+		}
+	</style>
+	</head>
+	<body bgcolor=3D"#ffcccc">
+	<pre>
+	<br>
+	<br>
+	<br><div class=3Dheader><center>WINETASTER ON 3/10/25 WITH 7 JUDGES=
+ AND 7 WINES BASED ON RANKS, IDENT =3D N
+Copyright (c) 1995-2025 Richard E. Quandt, V. 3.0
+
+
+A vertical tasting of Dominus
+
+</center></div>
+<div class=3Dtable>Identification of the Wine                     The Judges=
+' Overall Ranking:
+
+Wine E is 2009 Dominus                         ........ 1st place
+Wine F is 2013 Dominus                         ........ 2nd place
+Wine D is 1997 Dominus                         ........ 3rd place
+Wine A is 2002 Dominus                         ........ 4th place
+Wine B is 2007 Dominus                         ........ 5th place
+Wine C is 1996 Dominus                         tied for 6th place
+Wine G is 2002 Dominus                         tied for 6th place
+
+
+</div>
+<div class=3Dtable>                                         The Judges' Rank=
+ings
+
+Judge                      Wine ->        A        B        C        D      =
+  E        F        G
+
+Dean                                      7        4        5        3      =
+  2        1        6
+Mike                                      1        6        7        3      =
+  5        2        4
+Frank                                     1        2        4        5      =
+  3        7        6
+Orley                                     7        6        1        4      =
+  3        2        5
+Bob                                       5        6        7        1      =
+  3        2        4
+Dick                                      1        5        6        4      =
+  3        7        2
+Zaki                                      6        1        2        7      =
+  4        3        5
+
+
+                           Wine ->        A        B        C        D      =
+  E        F        G
+                  Group Ranking ->        4        5        6        3      =
+  1        2        6
+                  Votes Against ->       28       30       32       27      =
+ 23       24       32
+
+                  (7 is the best possible, 49 is the worst)
+
+
+
+</div>
+<div class=3Dbody>Here is a measure of the correlation in the preferences of=
+ the judges which ranges between 1.0 (perfect correlation) and 0.0 (no corre=
+lation):<br><br>    W =3D 0.0569<br><br>The probability that random chance c=
+ould be responsible for this correlation is rather large, 0.8808. Most analy=
+sts would say that unless this probability is less than 0.1, the judges' pre=
+ferences are not strongly related.<br><br>We now analyze how each taster's p=
+references are correlated with the group preference.<br>A correlation of 1.0=
+ means that the taster's preferences are a perfect predictor of the group's p=
+references.<br>A 0.0 means no correlation, while a -1.0 means that the taste=
+r has the reverse ranking of the group. This is measured by the correlation R=
+.<br><br></div>
+<div class=3Dtable>Correlation Between the Ranks of each Person With the Ave=
+rage Ranking of Others
+
+Judge       Spearman's Rho
+Dean         0.2364
+Bob          0.1071
+Mike        -0.0901
+Orley       -0.2143
+Zaki        -0.5714
+Frank       -0.5766
+Dick        -0.6071
+</div>
+
+<div class=3Dbody>The wines were preferred by the judges in the following or=
+der. When the preferences of the judges are strong enough to permit meaningf=
+ul differentiation among the wines, they are separated by ------------------=
+-- and are judged to be significantly different.<br><br></div>
+<div class=3Dtable>    1.        ........ 1st place        Wine E is 2009 Do=
+minus
+    2.        ........ 2nd place        Wine F is 2013 Dominus
+    3.        ........ 3rd place        Wine D is 1997 Dominus
+    4.        ........ 4th place        Wine A is 2002 Dominus
+    5.        ........ 5th place        Wine B is 2007 Dominus
+    6.        tied for 6th place        Wine C is 1996 Dominus
+    7.        tied for 6th place        Wine G is 2002 Dominus
+
+</div>
+<div class=3Dbody>We now test whether the ranksums AS A WHOLE provide a sign=
+ificant ordering. The Friedman Chi-Square value is  2.388. The probability t=
+hat this could happen by chance is  0.881.</div>
+<div class=3Dbody>We now undertake a more detailed examination of the pair-w=
+ise rank correlations that exist between pairs of judges. First, we present a=
+ table in which you can find the correlation for any pair of judges, by find=
+ing one of the names in the left hand margin and the other name on top of a c=
+olumn. A second table arranges these correlations in descending order and ma=
+rks which is significantly positive significantly negative, or not significa=
+nt. This may allow you to find clusters of judges whose rankings were partic=
+ularly similar or particularly dissimilar.<br><br></div>
+<div class=3Dbody>Pairwise Rank Correlations<br><br>Correlations must exceed=
+ in absolute value  0.753 for significance at the 0.05 level, and must excee=
+d  0.676 for significance at the 0.10 level.<br><br></div>
+<div class=3Dbody>Correlation Array for the tasting is:<br><br></div>
+<div class=3Dtable>                 Dean        Mike        Frank       Orle=
+y       Bob         Dick        Zaki      =20
+Dean             1.000      -0.036      -0.464       0.571       0.607      -=
+0.643       0.214     =20
+Mike            -0.036       1.000      -0.107      -0.393       0.571      =
+ 0.357      -0.679     =20
+Frank           -0.464      -0.107       1.000      -0.571      -0.536      =
+ 0.464       0.071     =20
+Orley            0.571      -0.393      -0.571       1.000       0.107      -=
+0.714       0.321     =20
+Bob              0.607       0.571      -0.536       0.107       1.000      =
+ 0.000      -0.607     =20
+Dick            -0.643       0.357       0.464      -0.714       0.000      =
+ 1.000      -0.643     =20
+Zaki             0.214      -0.679       0.071       0.321      -0.607      -=
+0.643       1.000     =20
+</div>
+
+
+<div class=3Dbody><center>Pairwise correlations in descending order<br><br><=
+/center></div>
+<div class=3Dtable> 0.607    Dean                and Bob                    =
+ Not significant
+ 0.571    Dean                and Orley                   Not significant
+ 0.571    Mike                and Bob                     Not significant
+ 0.464    Frank               and Dick                    Not significant
+ 0.357    Mike                and Dick                    Not significant
+ 0.321    Orley               and Zaki                    Not significant
+ 0.214    Dean                and Zaki                    Not significant
+ 0.107    Orley               and Bob                     Not significant
+ 0.071    Frank               and Zaki                    Not significant
+ 0.000    Bob                 and Dick                    Not significant
+-0.036    Dean                and Mike                    Not significant
+-0.107    Mike                and Frank                   Not significant
+-0.393    Mike                and Orley                   Not significant
+-0.464    Dean                and Frank                   Not significant
+-0.536    Frank               and Bob                     Not significant
+-0.571    Frank               and Orley                   Not significant
+-0.607    Bob                 and Zaki                    Not significant
+-0.643    Dean                and Dick                    Not significant
+-0.643    Dick                and Zaki                    Not significant
+-0.679    Mike                and Zaki                    Significantly nega=
+tive
+-0.714    Orley               and Dick                    Significantly nega=
+tive
+
+
+</div>
+<div class=3Dbody>COMMENT:<br><br>The Dominus estate, first known as the Nap=
+anook vineyard, dates back to the mid 19th century, with its vineyards likel=
+y planted around 1836 by founder George C Yount. Christian Moueix looking fo=
+r a Californian winery identified Dominus Estate as the pick of the bunch an=
+d entered into partnership in 1982 with the then-owners Robin Lail and Marci=
+a Smith before becoming the sole owner in 1995.<br>Overall this was a marvel=
+ous tasting of somewhat old school classic style of Napa Cabernet Sauvignon w=
+ines. they were extremely enjoyable. For most of the tasters this was the fi=
+rst time they have enjoyed a vertical of this winery. They were considered a=
+typical for today=E2=80=99s Napa wines with more restrained fruit and an alm=
+ost Bordeaux style. It is a food friendly style that appears to be capable o=
+f further aging, given that the wines apart from a slight difference in colo=
+r showed little signs of age. While there was no significant difference betw=
+een these wines it=E2=80=99s worth noting that the top two wines were indivi=
+dually rated 99 and 100 points. There is a second wine Napanook and a third c=
+alled Othello. <br>The winery is often used in blind tasting against Bordeau=
+x wines, Dominus=E2=80=99 grand vin =E2=80=93 a variable blend of Cabernet S=
+auvignon, Petit Verdot and Cabernet Franc =E2=80=93 is born of the estate=E2=
+=80=99s unique volcanic terroir, 25-year-old vines and commitment to authent=
+ic Bordeaux-style winemaking practices. The production at 7,000 cases also p=
+uts it in a similar size to mid sized top Bordeaux chateau=E2=80=99s with pr=
+icing that is reasonable when compared to some of the more rarified pricing f=
+rom comparable boutique Napa wineries.</div>
+	<br>
+	<center><a href=3D"rep.htm">Return to the previous page</a></center=
+>
+	</pre>
+	</body>
+	</html>=
+
+--Apple-Mail-5B38E8F2-8EC8-4E16-8652-B26D8981A6D7
+Content-Type: text/plain;
+	charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+E post this?
+
+Thanks
+Sent from my iPad
+--Apple-Mail-5B38E8F2-8EC8-4E16-8652-B26D8981A6D7--
